@@ -1,0 +1,4 @@
+Invoking command in '/home/sam/piper_ros/build/piper_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sam/piper_ros/src/piper_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sam/piper_ros/install/piper_msgs
+Invoked command in '/home/sam/piper_ros/build/piper_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sam/piper_ros/src/piper_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sam/piper_ros/install/piper_msgs
+Invoking command in '/home/sam/piper_ros/build/piper_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_msgs -- -j4 -l4
+Invoked command in '/home/sam/piper_ros/build/piper_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_msgs -- -j4 -l4

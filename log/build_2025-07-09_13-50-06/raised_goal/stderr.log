@@ -1,0 +1,15 @@
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:64:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+   64 |   [01;31m[Kstd[m[K::map<std::string, double> joint_targets;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:66:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_targets[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_values[m[K’?
+   66 |       [01;31m[Kjoint_targets[m[K[joint_names[i]] = joint_values[i];
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Kjoint_values[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:70:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_targets[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_values[m[K’?
+   70 |   bool within_bounds = move_group.setJointValueTarget([01;31m[Kjoint_targets[m[K);
+      |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                       [32m[Kjoint_values[m[K
+gmake[2]: *** [CMakeFiles/raised_goal.dir/build.make:76: CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/raised_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

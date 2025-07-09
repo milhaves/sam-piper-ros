@@ -1,0 +1,14 @@
+[0.038s] Invoking command in '/home/sam/piper_ros/build/raised_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/raised_goal -- -j4 -l4
+[0.448s] [ 50%] [32mBuilding CXX object CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o[0m
+[8.731s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.732s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:60:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names[m[K’ was not declared in this scope
+[8.732s]    60 |   [01;31m[Kjoint_names[m[K = {"joint1", "joint2", "joint3", "joint4", "joint5", "joint6", "joint7"};
+[8.732s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[8.740s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:64:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_values[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_targets[m[K’?
+[8.740s]    64 |       joint_targets[joint_names[i]] = [01;31m[Kjoint_values[m[K[i];
+[8.741s]       |                                       [01;31m[K^~~~~~~~~~~~[m[K
+[8.741s]       |                                       [32m[Kjoint_targets[m[K
+[11.641s] gmake[2]: *** [CMakeFiles/raised_goal.dir/build.make:76: CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o] Error 1
+[11.642s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/raised_goal.dir/all] Error 2
+[11.642s] gmake: *** [Makefile:146: all] Error 2
+[11.645s] Invoked command in '/home/sam/piper_ros/build/raised_goal' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/raised_goal -- -j4 -l4

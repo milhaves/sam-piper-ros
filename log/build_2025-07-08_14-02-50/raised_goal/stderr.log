@@ -1,0 +1,21 @@
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:70:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+   70 |   auto const collision_object = [frame_id = [01;31m[Kmove_group_interface[m[K.getPlanningFrame()] {
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In lambda function:
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:72:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+   72 |     collision_object.header.frame_id = [01;31m[Kframe_id[m[K;
+      |                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In lambda function:
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:169:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ is not captured
+  169 |     auto const ok = static_cast<bool>([01;31m[Kmove_group_interface[m[K.plan(msg));
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:167:54:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  167 |   auto const [success, plan] = [&move_group_interface[01;36m[K][m[K{
+      |                                                      [01;36m[K^[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:70:45:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>move_group_interface[m[K’ declared here
+   70 |   auto const collision_object = [frame_id = [01;36m[Kmove_group_interface[m[K.getPlanningFrame()] {
+      |                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/raised_goal.dir/build.make:76: CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/raised_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,4 @@
+source;share/raised_goal/local_setup.bash
+source;share/raised_goal/local_setup.dsv
+source;share/raised_goal/local_setup.sh
+source;share/raised_goal/local_setup.zsh

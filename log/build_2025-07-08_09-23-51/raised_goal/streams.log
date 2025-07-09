@@ -1,0 +1,29 @@
+[0.059s] Invoking command in '/home/sam/piper_ros/build/raised_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/raised_goal -- -j4 -l4
+[0.241s] [35m[1mConsolidate compiler generated dependencies of target raised_goal[0m
+[0.367s] [ 50%] [32mBuilding CXX object CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o[0m
+[8.392s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In lambda function:
+[8.392s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:64:5:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kcollision_object2[m[K’ before deduction of ‘[01m[Kauto[m[K’
+[8.392s]    64 |     [01;31m[Kcollision_object2[m[K.header.frame_id = frame_id;
+[8.392s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.392s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:65:5:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kcollision_object2[m[K’ before deduction of ‘[01m[Kauto[m[K’
+[8.392s]    65 |     [01;31m[Kcollision_object2[m[K.id = "box2";
+[8.393s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.395s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:82:5:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kcollision_object2[m[K’ before deduction of ‘[01m[Kauto[m[K’
+[8.395s]    82 |     [01;31m[Kcollision_object2[m[K.primitives.push_back(primitive);
+[8.395s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.395s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:83:5:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kcollision_object2[m[K’ before deduction of ‘[01m[Kauto[m[K’
+[8.395s]    83 |     [01;31m[Kcollision_object2[m[K.primitive_poses.push_back(box_pose);
+[8.395s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.396s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:84:5:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kcollision_object2[m[K’ before deduction of ‘[01m[Kauto[m[K’
+[8.396s]    84 |     [01;31m[Kcollision_object2[m[K.operation = collision_object2.ADD;
+[8.396s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.396s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:84:35:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kcollision_object2[m[K’ before deduction of ‘[01m[Kauto[m[K’
+[8.396s]    84 |     collision_object2.operation = [01;31m[Kcollision_object2[m[K.ADD;
+[8.396s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.396s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:86:12:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kcollision_object2[m[K’ before deduction of ‘[01m[Kauto[m[K’
+[8.396s]    86 |     return [01;31m[Kcollision_object2[m[K;
+[8.397s]       |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[11.206s] gmake[2]: *** [CMakeFiles/raised_goal.dir/build.make:76: CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o] Error 1
+[11.206s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/raised_goal.dir/all] Error 2
+[11.206s] gmake: *** [Makefile:146: all] Error 2
+[11.209s] Invoked command in '/home/sam/piper_ros/build/raised_goal' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/raised_goal -- -j4 -l4

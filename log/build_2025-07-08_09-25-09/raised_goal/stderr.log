@@ -1,0 +1,15 @@
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:62:14:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kconst auto collision_object[m[K’
+   62 |   auto const [01;31m[Kcollision_object[m[K = [frame_id = move_group_interface.getPlanningFrame()] {
+      |              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:35:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kconst moveit_msgs::msg::CollisionObject_<std::allocator<void> > collision_object[m[K’
+   35 |   auto const [01;36m[Kcollision_object[m[K = [frame_id = move_group_interface.getPlanningFrame()] {
+      |              [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In lambda function:
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:86:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_object2[m[K’ was not declared in this scope; did you mean ‘[01m[Kcollision_object[m[K’?
+   86 |     return [01;31m[Kcollision_object2[m[K;
+      |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |            [32m[Kcollision_object[m[K
+gmake[2]: *** [CMakeFiles/raised_goal.dir/build.make:76: CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/raised_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,17 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o[0m
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:39:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+   39 |   const moveit::core::JointModelGroup* joint_model_group = [01;31m[Kmove_group[m[K.getCurrentState()->getJointModelGroup("arm")
+      |                                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_state[m[K’ was not declared in this scope
+   46 |   [01;31m[Kcurrent_state[m[K->copyJointGroupPositions(joint_model_group, joint_group_positions);
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:130:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  130 |   }([01;31m[K)[m[K;
+      |     [01;31m[K^[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:161:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_object[m[K’ was not declared in this scope
+  161 |   planning_scene_interface.applyCollisionObject([01;31m[Kcollision_object[m[K);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/raised_goal.dir/build.make:76: CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/raised_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

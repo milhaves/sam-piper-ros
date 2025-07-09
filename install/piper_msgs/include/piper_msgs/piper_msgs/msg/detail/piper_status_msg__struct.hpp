@@ -1,0 +1,1 @@
+/home/sam/piper_ros/build/piper_msgs/rosidl_generator_cpp/piper_msgs/msg/detail/piper_status_msg__struct.hpp

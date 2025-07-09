@@ -1,0 +1,1 @@
+/home/sam/piper_ros/build/piper_msgs/rosidl_generator_py/piper_msgs/msg/_pos_cmd.py

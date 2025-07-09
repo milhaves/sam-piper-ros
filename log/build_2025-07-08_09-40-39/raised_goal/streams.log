@@ -1,0 +1,26 @@
+[0.084s] Invoking command in '/home/sam/piper_ros/build/raised_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/raised_goal -- -j4 -l4
+[0.413s] [35m[1mConsolidate compiler generated dependencies of target raised_goal[0m
+[0.549s] [ 50%] [32mBuilding CXX object CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o[0m
+[13.327s] [100%] [32m[1mLinking CXX executable raised_goal[0m
+[13.965s] [100%] Built target raised_goal
+[13.984s] Invoked command in '/home/sam/piper_ros/build/raised_goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/raised_goal -- -j4 -l4
+[13.986s] Invoking command in '/home/sam/piper_ros/build/raised_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/raised_goal
+[14.001s] -- Install configuration: "Debug"
+[14.001s] -- Installing: /home/sam/piper_ros/install/raised_goal/lib/raised_goal/raised_goal
+[14.015s] -- Set runtime path of "/home/sam/piper_ros/install/raised_goal/lib/raised_goal/raised_goal" to ""
+[14.015s] -- Up-to-date: /home/sam/piper_ros/install/raised_goal/share/ament_index/resource_index/package_run_dependencies/raised_goal
+[14.015s] -- Up-to-date: /home/sam/piper_ros/install/raised_goal/share/ament_index/resource_index/parent_prefix_path/raised_goal
+[14.015s] -- Up-to-date: /home/sam/piper_ros/install/raised_goal/share/raised_goal/environment/ament_prefix_path.sh
+[14.015s] -- Up-to-date: /home/sam/piper_ros/install/raised_goal/share/raised_goal/environment/ament_prefix_path.dsv
+[14.015s] -- Up-to-date: /home/sam/piper_ros/install/raised_goal/share/raised_goal/environment/path.sh
+[14.016s] -- Up-to-date: /home/sam/piper_ros/install/raised_goal/share/raised_goal/environment/path.dsv
+[14.016s] -- Up-to-date: /home/sam/piper_ros/install/raised_goal/share/raised_goal/local_setup.bash
+[14.016s] -- Up-to-date: /home/sam/piper_ros/install/raised_goal/share/raised_goal/local_setup.sh
+[14.016s] -- Up-to-date: /home/sam/piper_ros/install/raised_goal/share/raised_goal/local_setup.zsh
+[14.016s] -- Up-to-date: /home/sam/piper_ros/install/raised_goal/share/raised_goal/local_setup.dsv
+[14.016s] -- Installing: /home/sam/piper_ros/install/raised_goal/share/raised_goal/package.dsv
+[14.017s] -- Up-to-date: /home/sam/piper_ros/install/raised_goal/share/ament_index/resource_index/packages/raised_goal
+[14.017s] -- Up-to-date: /home/sam/piper_ros/install/raised_goal/share/raised_goal/cmake/raised_goalConfig.cmake
+[14.017s] -- Up-to-date: /home/sam/piper_ros/install/raised_goal/share/raised_goal/cmake/raised_goalConfig-version.cmake
+[14.017s] -- Up-to-date: /home/sam/piper_ros/install/raised_goal/share/raised_goal/package.xml
+[14.019s] Invoked command in '/home/sam/piper_ros/build/raised_goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/raised_goal

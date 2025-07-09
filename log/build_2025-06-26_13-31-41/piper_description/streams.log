@@ -1,0 +1,75 @@
+[0.033s] Invoking command in '/home/sam/piper_ros/build/piper_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sam/piper_ros/src/piper_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sam/piper_ros/install/piper_description
+[0.530s] -- The C compiler identification is GNU 11.4.0
+[0.531s] -- The CXX compiler identification is GNU 11.4.0
+[0.531s] -- Detecting C compiler ABI info
+[0.531s] -- Detecting C compiler ABI info - done
+[0.531s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.532s] -- Detecting C compile features
+[0.532s] -- Detecting C compile features - done
+[0.532s] -- Detecting CXX compiler ABI info
+[0.562s] -- Detecting CXX compiler ABI info - done
+[0.592s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.597s] -- Detecting CXX compile features
+[0.597s] -- Detecting CXX compile features - done
+[0.604s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.024s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.165s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.235s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.438s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.445s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.447s] -- Added test 'lint_cmake' to check CMake code style
+[1.448s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.453s] -- Added test 'xmllint' to check XML markup files
+[1.457s] -- Configuring done
+[1.462s] -- Generating done
+[1.466s] -- Build files have been written to: /home/sam/piper_ros/build/piper_description
+[1.483s] Invoked command in '/home/sam/piper_ros/build/piper_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sam/piper_ros/src/piper_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sam/piper_ros/install/piper_description
+[1.483s] Invoking command in '/home/sam/piper_ros/build/piper_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_description -- -j4 -l4
+[1.560s] Invoked command in '/home/sam/piper_ros/build/piper_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_description -- -j4 -l4
+[1.578s] Invoking command in '/home/sam/piper_ros/build/piper_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_description
+[1.592s] -- Install configuration: ""
+[1.594s] -- Execute custom install script
+[1.595s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/launch/piper_no_gripper/display_no_gripper_urdf.launch.py
+[1.620s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/launch/piper_no_gripper/display_no_gripper_xacro.launch.py
+[1.652s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/launch/piper_with_gripper/display_urdf.launch.py
+[1.667s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/launch/piper_with_gripper/display_xacro.launch.py
+[1.682s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/meshes/base_link.STL
+[1.716s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/meshes/gripper_base.STL
+[1.746s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/meshes/link1.STL
+[1.764s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/meshes/link2.STL
+[1.794s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/meshes/link3.STL
+[1.831s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/meshes/link4.STL
+[1.870s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/meshes/link5.STL
+[1.904s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/meshes/link6.STL
+[1.935s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/meshes/link7.STL
+[1.996s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/meshes/link8.STL
+[2.031s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/rviz/piper_ctrl.rviz
+[2.072s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/rviz/piper_no_gripper.rviz
+[2.127s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/urdf/piper_description.csv
+[2.172s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/urdf/piper_description.urdf
+[2.202s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/urdf/piper_description.xacro
+[2.239s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/urdf/piper_description_gazebo.xacro
+[2.291s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/urdf/piper_description_old.urdf
+[2.354s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/urdf/piper_no_gripper_description.csv
+[2.430s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/urdf/piper_no_gripper_description.urdf
+[2.479s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/urdf/piper_no_gripper_description.xacro
+[2.539s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/urdf/piper_no_gripper_description_gazebo.xacro
+[2.587s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/urdf/piper_no_gripper_description_old.urdf
+[2.609s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/mujoco_model/piper_description.xml
+[2.641s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/mujoco_model/piper_no_gripper_description.xml
+[2.681s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/ament_index/resource_index/package_run_dependencies/piper_description
+[2.715s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/ament_index/resource_index/parent_prefix_path/piper_description
+[2.736s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/environment/ament_prefix_path.sh
+[2.754s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/environment/ament_prefix_path.dsv
+[2.775s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/environment/path.sh
+[2.797s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/environment/path.dsv
+[2.816s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/local_setup.bash
+[2.835s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/local_setup.sh
+[2.843s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/local_setup.zsh
+[2.894s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/local_setup.dsv
+[2.946s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/package.dsv
+[2.974s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/ament_index/resource_index/packages/piper_description
+[3.047s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/cmake/piper_descriptionConfig.cmake
+[3.079s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/cmake/piper_descriptionConfig-version.cmake
+[3.119s] -- Symlinking: /home/sam/piper_ros/install/piper_description/share/piper_description/package.xml
+[3.154s] Invoked command in '/home/sam/piper_ros/build/piper_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_description

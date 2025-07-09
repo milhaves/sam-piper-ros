@@ -1,0 +1,1 @@
+/home/sam/piper_ros/build/piper_msgs/rosidl_typesupport_introspection_c/piper_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

@@ -1,0 +1,1 @@
+/home/sam/piper_ros/src/piper_sim/piper_gazebo/scripts/joint8_ctrl.py

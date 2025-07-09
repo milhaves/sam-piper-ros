@@ -1,0 +1,25 @@
+[1.410s] Invoking command in '/home/sam/piper_ros/build/piper': PYTHONPATH=/home/sam/piper_ros/build/piper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sam/piper_ros/install/piper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sam/piper_ros/build/piper/build --no-deps symlink_data --force
+[2.059s] running develop
+[2.507s] running egg_info
+[2.508s] writing piper.egg-info/PKG-INFO
+[2.509s] writing dependency_links to piper.egg-info/dependency_links.txt
+[2.510s] writing entry points to piper.egg-info/entry_points.txt
+[2.511s] writing requirements to piper.egg-info/requires.txt
+[2.511s] writing top-level names to piper.egg-info/top_level.txt
+[2.516s] reading manifest file 'piper.egg-info/SOURCES.txt'
+[2.520s] writing manifest file 'piper.egg-info/SOURCES.txt'
+[2.522s] running build_ext
+[2.523s] Creating /home/sam/piper_ros/install/piper/lib/python3.10/site-packages/piper.egg-link (link to .)
+[2.526s] Installing piper_ms_ctrl script to /home/sam/piper_ros/install/piper/lib/piper
+[2.526s] Installing piper_read_master script to /home/sam/piper_ros/install/piper/lib/piper
+[2.526s] Installing piper_single_ctrl script to /home/sam/piper_ros/install/piper/lib/piper
+[2.526s] Installing talker script to /home/sam/piper_ros/install/piper/lib/piper
+[2.526s] 
+[2.526s] Installed /home/sam/piper_ros/build/piper
+[2.527s] running symlink_data
+[2.527s] symbolically linking /home/sam/piper_ros/build/piper/resource/piper -> /home/sam/piper_ros/install/piper/share/ament_index/resource_index/packages
+[2.528s] symbolically linking /home/sam/piper_ros/build/piper/package.xml -> /home/sam/piper_ros/install/piper/share/piper
+[2.528s] symbolically linking /home/sam/piper_ros/build/piper/launch/start_single_piper_two_state.launch.py -> /home/sam/piper_ros/install/piper/share/piper/launch
+[2.528s] symbolically linking /home/sam/piper_ros/build/piper/launch/start_single_piper.launch.py -> /home/sam/piper_ros/install/piper/share/piper/launch
+[2.528s] symbolically linking /home/sam/piper_ros/build/piper/launch/start_single_piper_rviz.launch.py -> /home/sam/piper_ros/install/piper/share/piper/launch
+[2.589s] Invoked command in '/home/sam/piper_ros/build/piper' returned '0': PYTHONPATH=/home/sam/piper_ros/build/piper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sam/piper_ros/install/piper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sam/piper_ros/build/piper/build --no-deps symlink_data --force

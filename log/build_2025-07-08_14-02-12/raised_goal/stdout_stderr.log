@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target raised_goal[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o[0m
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:67:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+   67 |   move_group.setMaxAccelerationScalingFactor(0.05)
+      |                                                   [01;31m[K^[m[K
+      |                                                   [32m[K;[m[K
+......
+   70 |   [32m[Kauto[m[K const collision_object = [frame_id = move_group_interface.getPlanningFrame()] {
+      |   [32m[K~~~~[m[K                                             
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:132:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  132 |   }([01;31m[K)[m[K;
+      |     [01;31m[K^[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:163:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_object[m[K’ was not declared in this scope
+  163 |   planning_scene_interface.applyCollisionObject([01;31m[Kcollision_object[m[K);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:167:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+  167 |   auto const [success, plan] = [&[01;31m[Kmove_group_interface[m[K]{
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In lambda function:
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:169:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ is not captured
+  169 |     auto const ok = static_cast<bool>([01;31m[Kmove_group_interface[m[K.plan(msg));
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:167:54:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  167 |   auto const [success, plan] = [&move_group_interface[01;36m[K][m[K{
+      |                                                      [01;36m[K^[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:167:34:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>move_group_interface[m[K’ declared here
+  167 |   auto const [success, plan] = [&[01;36m[Kmove_group_interface[m[K]{
+      |                                  [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/raised_goal.dir/build.make:76: CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/raised_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

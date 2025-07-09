@@ -1,0 +1,46 @@
+[0.039s] Invoking command in '/home/sam/piper_ros/build/raised_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/raised_goal -- -j4 -l4
+[0.448s] [35m[1mConsolidate compiler generated dependencies of target raised_goal[0m
+[0.624s] [ 50%] [32mBuilding CXX object CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o[0m
+[8.558s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.558s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:28:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kmoveit[m[K’
+[8.559s]    28 |   [01;31m[Kmoveit[m[K::planning_interface::PlanningSceneInterface planning_scene_interface;
+[8.559s]       |   [01;31m[K^~~~~~[m[K
+[8.562s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:44:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kmoveit[m[K’
+[8.562s]    44 |   [01;31m[Kmoveit[m[K::core::RobotStatePtr current_state = move_group.getCurrentState(7);
+[8.562s]       |   [01;31m[K^~~~~~[m[K
+[8.573s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:48:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_state[m[K’ was not declared in this scope
+[8.573s]    48 |   [01;31m[Kcurrent_state[m[K->copyJointGroupPositions(joint_model_group, joint_group_positions);
+[8.573s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[8.573s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:67:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+[8.573s]    67 |   move_group.setMaxAccelerationScalingFactor(0.05)
+[8.573s]       |                                                   [01;31m[K^[m[K
+[8.574s]       |                                                   [32m[K;[m[K
+[8.574s] ......
+[8.574s]    70 |   [32m[Kauto[m[K const collision_object = [frame_id = move_group_interface.getPlanningFrame()] {
+[8.574s]       |   [32m[K~~~~[m[K                                             
+[8.574s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:132:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[8.574s]   132 |   }([01;31m[K)[m[K;
+[8.574s]       |     [01;31m[K^[m[K
+[8.595s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:163:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_interface[m[K’ was not declared in this scope
+[8.595s]   163 |   [01;31m[Kplanning_scene_interface[m[K.applyCollisionObject(collision_object);
+[8.596s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.610s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:163:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_object[m[K’ was not declared in this scope
+[8.610s]   163 |   planning_scene_interface.applyCollisionObject([01;31m[Kcollision_object[m[K);
+[8.610s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[8.627s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:167:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+[8.627s]   167 |   auto const [success, plan] = [&[01;31m[Kmove_group_interface[m[K]{
+[8.627s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.628s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In lambda function:
+[8.628s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:169:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ is not captured
+[8.628s]   169 |     auto const ok = static_cast<bool>([01;31m[Kmove_group_interface[m[K.plan(msg));
+[8.628s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.628s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:167:54:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[8.628s]   167 |   auto const [success, plan] = [&move_group_interface[01;36m[K][m[K{
+[8.628s]       |                                                      [01;36m[K^[m[K
+[8.628s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:167:34:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>move_group_interface[m[K’ declared here
+[8.628s]   167 |   auto const [success, plan] = [&[01;36m[Kmove_group_interface[m[K]{
+[8.629s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.530s] gmake[2]: *** [CMakeFiles/raised_goal.dir/build.make:76: CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o] Error 1
+[11.531s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/raised_goal.dir/all] Error 2
+[11.531s] gmake: *** [Makefile:146: all] Error 2
+[11.535s] Invoked command in '/home/sam/piper_ros/build/raised_goal' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/raised_goal -- -j4 -l4

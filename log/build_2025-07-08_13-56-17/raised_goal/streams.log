@@ -1,0 +1,12 @@
+[0.047s] Invoking command in '/home/sam/piper_ros/build/raised_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/raised_goal -- -j4 -l4
+[0.354s] [35m[1mConsolidate compiler generated dependencies of target raised_goal[0m
+[0.578s] [ 50%] [32mBuilding CXX object CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o[0m
+[3.829s] In file included from [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:8[m[K:
+[3.830s] [01m[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:56:10:[m[K [01;31m[Kfatal error: [m[Kgraph_msgs/msg/geometry_graph.hpp: No such file or directory
+[3.830s]    56 | #include [01;31m[K<graph_msgs/msg/geometry_graph.hpp>[m[K
+[3.830s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.830s] compilation terminated.
+[3.844s] gmake[2]: *** [CMakeFiles/raised_goal.dir/build.make:76: CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o] Error 1
+[3.845s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/raised_goal.dir/all] Error 2
+[3.845s] gmake: *** [Makefile:146: all] Error 2
+[3.848s] Invoked command in '/home/sam/piper_ros/build/raised_goal' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/raised_goal -- -j4 -l4

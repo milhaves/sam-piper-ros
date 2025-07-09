@@ -1,0 +1,37 @@
+[0.039s] Invoking command in '/home/sam/piper_ros/build/piper_mujoco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/sam/piper_ros/src/piper_sim/piper_mujoco -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/sam/piper_ros/install/piper_mujoco
+[0.083s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.490s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.552s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.557s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.618s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.626s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.644s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.678s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.738s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.052s] -- Configuring done
+[1.064s] -- Generating done
+[1.073s] -- Build files have been written to: /home/sam/piper_ros/build/piper_mujoco
+[1.087s] Invoked command in '/home/sam/piper_ros/build/piper_mujoco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/sam/piper_ros/src/piper_sim/piper_mujoco -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/sam/piper_ros/install/piper_mujoco
+[1.096s] Invoking command in '/home/sam/piper_ros/build/piper_mujoco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_mujoco -- -j4 -l4
+[1.255s] Invoked command in '/home/sam/piper_ros/build/piper_mujoco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_mujoco -- -j4 -l4
+[1.261s] Invoking command in '/home/sam/piper_ros/build/piper_mujoco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_mujoco
+[1.281s] -- Install configuration: "Debug"
+[1.283s] -- Execute custom install script
+[1.285s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/lib/piper_mujoco/piper_mujoco_ctrl.py
+[1.287s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/lib/piper_mujoco/piper_no_gripper_mujoco_ctrl.py
+[1.287s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/share/ament_index/resource_index/package_run_dependencies/piper_mujoco
+[1.287s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/share/ament_index/resource_index/parent_prefix_path/piper_mujoco
+[1.292s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/environment/ament_prefix_path.sh
+[1.293s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/environment/ament_prefix_path.dsv
+[1.293s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/environment/path.sh
+[1.293s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/environment/path.dsv
+[1.296s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/local_setup.bash
+[1.296s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/local_setup.sh
+[1.297s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/local_setup.zsh
+[1.297s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/local_setup.dsv
+[1.297s] -- Symlinking: /home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/package.dsv
+[1.313s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/share/ament_index/resource_index/packages/piper_mujoco
+[1.313s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/cmake/piper_mujocoConfig.cmake
+[1.314s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/cmake/piper_mujocoConfig-version.cmake
+[1.316s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/package.xml
+[1.320s] Invoked command in '/home/sam/piper_ros/build/piper_mujoco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_mujoco

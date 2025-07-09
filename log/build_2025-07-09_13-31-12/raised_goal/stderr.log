@@ -1,0 +1,11 @@
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:60:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names[m[K’ was not declared in this scope
+   60 |   [01;31m[Kjoint_names[m[K = {"joint1", "joint2", "joint3", "joint4", "joint5", "joint6", "joint7"};
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:64:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_values[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_targets[m[K’?
+   64 |       joint_targets[joint_names[i]] = [01;31m[Kjoint_values[m[K[i];
+      |                                       [01;31m[K^~~~~~~~~~~~[m[K
+      |                                       [32m[Kjoint_targets[m[K
+gmake[2]: *** [CMakeFiles/raised_goal.dir/build.make:76: CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/raised_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

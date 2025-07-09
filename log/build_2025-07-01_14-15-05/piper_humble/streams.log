@@ -1,0 +1,21 @@
+[0.602s] Invoking command in '/home/sam/piper_ros/build/piper_humble': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_humble -- -j4 -l4
+[0.737s] Invoked command in '/home/sam/piper_ros/build/piper_humble' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_humble -- -j4 -l4
+[0.738s] Invoking command in '/home/sam/piper_ros/build/piper_humble': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_humble
+[0.801s] -- Install configuration: "Debug"
+[0.802s] -- Execute custom install script
+[0.802s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_humble/share/ament_index/resource_index/package_run_dependencies/piper_humble
+[0.803s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_humble/share/ament_index/resource_index/parent_prefix_path/piper_humble
+[0.804s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_humble/share/piper_humble/environment/ament_prefix_path.sh
+[0.804s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_humble/share/piper_humble/environment/ament_prefix_path.dsv
+[0.804s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_humble/share/piper_humble/environment/path.sh
+[0.805s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_humble/share/piper_humble/environment/path.dsv
+[0.805s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_humble/share/piper_humble/local_setup.bash
+[0.810s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_humble/share/piper_humble/local_setup.sh
+[0.810s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_humble/share/piper_humble/local_setup.zsh
+[0.810s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_humble/share/piper_humble/local_setup.dsv
+[0.810s] -- Symlinking: /home/sam/piper_ros/install/piper_humble/share/piper_humble/package.dsv
+[0.847s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_humble/share/ament_index/resource_index/packages/piper_humble
+[0.850s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_humble/share/piper_humble/cmake/piper_humbleConfig.cmake
+[0.850s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_humble/share/piper_humble/cmake/piper_humbleConfig-version.cmake
+[0.850s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_humble/share/piper_humble/package.xml
+[0.895s] Invoked command in '/home/sam/piper_ros/build/piper_humble' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_humble

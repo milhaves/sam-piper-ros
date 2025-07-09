@@ -1,0 +1,61 @@
+[0.019s] Invoking command in '/home/sam/piper_ros/build/piper_no_gripper_moveit': AMENT_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:/opt/ros/humble /usr/bin/cmake /home/sam/piper_ros/src/piper_moveit/piper_no_gripper_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sam/piper_ros/install/piper_no_gripper_moveit
+[0.320s] -- The C compiler identification is GNU 11.4.0
+[0.543s] -- The CXX compiler identification is GNU 11.4.0
+[0.581s] -- Detecting C compiler ABI info
+[0.900s] -- Detecting C compiler ABI info - done
+[0.939s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.939s] -- Detecting C compile features
+[0.939s] -- Detecting C compile features - done
+[0.951s] -- Detecting CXX compiler ABI info
+[1.313s] -- Detecting CXX compiler ABI info - done
+[1.348s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.348s] -- Detecting CXX compile features
+[1.354s] -- Detecting CXX compile features - done
+[1.366s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.842s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.033s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.345s] -- Configuring done
+[2.353s] -- Generating done
+[2.357s] -- Build files have been written to: /home/sam/piper_ros/build/piper_no_gripper_moveit
+[2.369s] Invoked command in '/home/sam/piper_ros/build/piper_no_gripper_moveit' returned '0': AMENT_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:/opt/ros/humble /usr/bin/cmake /home/sam/piper_ros/src/piper_moveit/piper_no_gripper_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sam/piper_ros/install/piper_no_gripper_moveit
+[2.376s] Invoking command in '/home/sam/piper_ros/build/piper_no_gripper_moveit': AMENT_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_no_gripper_moveit -- -j4 -l4
+[2.554s] Invoked command in '/home/sam/piper_ros/build/piper_no_gripper_moveit' returned '0': AMENT_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_no_gripper_moveit -- -j4 -l4
+[2.555s] Invoking command in '/home/sam/piper_ros/build/piper_no_gripper_moveit': AMENT_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_no_gripper_moveit
+[2.574s] -- Install configuration: ""
+[2.575s] -- Execute custom install script
+[2.577s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/ament_index/resource_index/package_run_dependencies/piper_no_gripper_moveit
+[2.593s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/ament_index/resource_index/parent_prefix_path/piper_no_gripper_moveit
+[2.623s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/environment/ament_prefix_path.sh
+[2.639s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/environment/ament_prefix_path.dsv
+[2.653s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/environment/path.sh
+[2.670s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/environment/path.dsv
+[2.684s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/local_setup.bash
+[2.701s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/local_setup.sh
+[2.717s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/local_setup.zsh
+[2.733s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/local_setup.dsv
+[2.749s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.dsv
+[2.766s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/ament_index/resource_index/packages/piper_no_gripper_moveit
+[2.785s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/cmake/piper_no_gripper_moveitConfig.cmake
+[2.832s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/cmake/piper_no_gripper_moveitConfig-version.cmake
+[2.849s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.xml
+[2.873s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/launch/demo.launch.py
+[2.892s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/launch/move_group.launch.py
+[2.908s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/launch/moveit_rviz.launch.py
+[2.921s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/launch/piper_moveit.launch.py
+[2.937s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/launch/rsp.launch.py
+[2.954s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/launch/setup_assistant.launch.py
+[2.967s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/launch/spawn_controllers.launch.py
+[2.983s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/launch/static_virtual_joint_tfs.launch.py
+[3.001s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/launch/warehouse_db.launch.py
+[3.017s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/config/initial_positions.yaml
+[3.033s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/config/joint_limits.yaml
+[3.048s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/config/kinematics.yaml
+[3.065s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/config/moveit.rviz
+[3.081s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/config/moveit_controllers.yaml
+[3.101s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/config/pilz_cartesian_limits.yaml
+[3.115s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/config/piper.ros2_control.xacro
+[3.130s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/config/piper.srdf
+[3.146s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/config/piper.urdf.xacro
+[3.161s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/config/ros2_controllers.yaml
+[3.177s] -- Symlinking: /home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/.setup_assistant
+[3.198s] Invoked command in '/home/sam/piper_ros/build/piper_no_gripper_moveit' returned '0': AMENT_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_no_gripper_moveit

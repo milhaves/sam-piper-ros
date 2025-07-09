@@ -1,0 +1,19 @@
+[0.148s] Invoking command in '/home/sam/piper_ros/build/raised_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/raised_goal -- -j4 -l4
+[0.403s] [35m[1mConsolidate compiler generated dependencies of target raised_goal[0m
+[0.519s] [ 50%] [32mBuilding CXX object CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o[0m
+[8.923s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.923s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:64:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+[8.923s]    64 |   [01;31m[Kstd[m[K::map<std::string, double> joint_targets;
+[8.923s]       |   [01;31m[K^~~[m[K
+[8.931s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:66:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_targets[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_values[m[K’?
+[8.931s]    66 |       [01;31m[Kjoint_targets[m[K[joint_names[i]] = joint_values[i];
+[8.931s]       |       [01;31m[K^~~~~~~~~~~~~[m[K
+[8.931s]       |       [32m[Kjoint_values[m[K
+[8.939s] [01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:70:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_targets[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_values[m[K’?
+[8.939s]    70 |   bool within_bounds = move_group.setJointValueTarget([01;31m[Kjoint_targets[m[K);
+[8.939s]       |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[8.939s]       |                                                       [32m[Kjoint_values[m[K
+[11.868s] gmake[2]: *** [CMakeFiles/raised_goal.dir/build.make:76: CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o] Error 1
+[11.868s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/raised_goal.dir/all] Error 2
+[11.868s] gmake: *** [Makefile:146: all] Error 2
+[11.871s] Invoked command in '/home/sam/piper_ros/build/raised_goal' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/raised_goal -- -j4 -l4

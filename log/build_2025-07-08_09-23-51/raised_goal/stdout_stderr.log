@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target raised_goal[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o[0m
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:[m[K In lambda function:
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:64:5:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kcollision_object2[m[K’ before deduction of ‘[01m[Kauto[m[K’
+   64 |     [01;31m[Kcollision_object2[m[K.header.frame_id = frame_id;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:65:5:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kcollision_object2[m[K’ before deduction of ‘[01m[Kauto[m[K’
+   65 |     [01;31m[Kcollision_object2[m[K.id = "box2";
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:82:5:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kcollision_object2[m[K’ before deduction of ‘[01m[Kauto[m[K’
+   82 |     [01;31m[Kcollision_object2[m[K.primitives.push_back(primitive);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:83:5:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kcollision_object2[m[K’ before deduction of ‘[01m[Kauto[m[K’
+   83 |     [01;31m[Kcollision_object2[m[K.primitive_poses.push_back(box_pose);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:84:5:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kcollision_object2[m[K’ before deduction of ‘[01m[Kauto[m[K’
+   84 |     [01;31m[Kcollision_object2[m[K.operation = collision_object2.ADD;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:84:35:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kcollision_object2[m[K’ before deduction of ‘[01m[Kauto[m[K’
+   84 |     collision_object2.operation = [01;31m[Kcollision_object2[m[K.ADD;
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sam/piper_ros/src/raised_goal/src/raised_goal.cpp:86:12:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Kcollision_object2[m[K’ before deduction of ‘[01m[Kauto[m[K’
+   86 |     return [01;31m[Kcollision_object2[m[K;
+      |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/raised_goal.dir/build.make:76: CMakeFiles/raised_goal.dir/src/raised_goal.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/raised_goal.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

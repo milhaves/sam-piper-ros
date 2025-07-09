@@ -1,0 +1,1 @@
+/home/sam/piper_ros/src/piper_sim/piper_mujoco/scripts/piper_no_gripper_mujoco_ctrl.py

@@ -1,0 +1,6 @@
+Invoking command in '/home/sam/piper_ros/build/piper_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sam/piper_ros/src/piper_sim/piper_gazebo -DCMAKE_INSTALL_PREFIX=/home/sam/piper_ros/install/piper_gazebo
+Invoked command in '/home/sam/piper_ros/build/piper_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sam/piper_ros/src/piper_sim/piper_gazebo -DCMAKE_INSTALL_PREFIX=/home/sam/piper_ros/install/piper_gazebo
+Invoking command in '/home/sam/piper_ros/build/piper_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_gazebo -- -j4 -l4
+Invoked command in '/home/sam/piper_ros/build/piper_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_gazebo -- -j4 -l4
+Invoking command in '/home/sam/piper_ros/build/piper_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_gazebo
+Invoked command in '/home/sam/piper_ros/build/piper_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_gazebo
