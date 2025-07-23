@@ -1,0 +1,760 @@
+[0.175s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.176s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x726f6a998610>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x726f6aa95c30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x726f6aa95c30>>, mixin_verb=('build',))
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.461s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sam/piper_ros'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(asserts) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(asserts) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(asserts) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(asserts) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(asserts) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(asserts) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(asserts) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(asserts) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(asserts) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(asserts) by extensions ['cmake', 'python']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(asserts) by extension 'cmake'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(asserts) by extension 'python'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(asserts) by extensions ['python_setup_py']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(asserts) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(asserts/pictures) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(asserts/pictures) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(asserts/pictures) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(asserts/pictures) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(asserts/pictures) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(asserts/pictures) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(asserts/pictures) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(asserts/pictures) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(asserts/pictures) by extension 'ros'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(asserts/pictures) by extensions ['cmake', 'python']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(asserts/pictures) by extension 'cmake'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(asserts/pictures) by extension 'python'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(asserts/pictures) by extensions ['python_setup_py']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(asserts/pictures) by extension 'python_setup_py'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper) by extensions ['colcon_pkg']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper) by extension 'ros'
+[0.503s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper' with type 'ros.ament_python' and name 'piper'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_description) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_description) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_description) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_description) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_description) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_description) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_description) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_description) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_description) by extension 'ros'
+[0.505s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper_description' with type 'ros.ament_cmake' and name 'piper_description'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_humble) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_humble) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_humble) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_humble) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_humble) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_humble) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_humble) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_humble) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_humble) by extension 'ros'
+[0.507s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper_humble' with type 'ros.ament_cmake' and name 'piper_humble'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit) by extension 'ros'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit) by extensions ['cmake', 'python']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit) by extension 'cmake'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit) by extension 'python'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit) by extensions ['python_setup_py']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit) by extension 'python_setup_py'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_no_gripper_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_no_gripper_moveit) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_no_gripper_moveit) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_no_gripper_moveit) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_no_gripper_moveit) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_no_gripper_moveit) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_no_gripper_moveit) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_no_gripper_moveit) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_no_gripper_moveit) by extension 'ros'
+[0.511s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper_moveit/piper_no_gripper_moveit' with type 'ros.ament_cmake' and name 'piper_no_gripper_moveit'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_with_gripper_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_with_gripper_moveit) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_with_gripper_moveit) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_with_gripper_moveit) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_with_gripper_moveit) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_with_gripper_moveit) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_with_gripper_moveit) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_with_gripper_moveit) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_moveit/piper_with_gripper_moveit) by extension 'ros'
+[0.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper_moveit/piper_with_gripper_moveit' with type 'ros.ament_cmake' and name 'piper_with_gripper_moveit'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_msgs) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_msgs) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_msgs) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_msgs) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_msgs) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_msgs) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_msgs) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_msgs) by extension 'ros'
+[0.517s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper_msgs' with type 'ros.ament_cmake' and name 'piper_msgs'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim) by extension 'ignore'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim) by extension 'ignore_ament_install'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim) by extensions ['colcon_pkg']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim) by extension 'colcon_pkg'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim) by extensions ['colcon_meta']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim) by extension 'colcon_meta'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim) by extensions ['ros']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim) by extension 'ros'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim) by extensions ['cmake', 'python']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim) by extension 'cmake'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim) by extension 'python'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim) by extensions ['python_setup_py']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim) by extension 'python_setup_py'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_gazebo) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_gazebo) by extension 'ignore_ament_install'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_gazebo) by extensions ['colcon_pkg']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_gazebo) by extension 'colcon_pkg'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_gazebo) by extensions ['colcon_meta']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_gazebo) by extension 'colcon_meta'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_gazebo) by extensions ['ros']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_gazebo) by extension 'ros'
+[0.520s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper_sim/piper_gazebo' with type 'ros.ament_cmake' and name 'piper_gazebo'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_mujoco) by extensions ['ignore', 'ignore_ament_install']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_mujoco) by extension 'ignore'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_mujoco) by extension 'ignore_ament_install'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_mujoco) by extensions ['colcon_pkg']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_mujoco) by extension 'colcon_pkg'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_mujoco) by extensions ['colcon_meta']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_mujoco) by extension 'colcon_meta'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_mujoco) by extensions ['ros']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/piper_sim/piper_mujoco) by extension 'ros'
+[0.522s] DEBUG:colcon.colcon_core.package_identification:Package 'src/piper_sim/piper_mujoco' with type 'ros.ament_cmake' and name 'piper_mujoco'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/raised_goal) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/raised_goal) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/raised_goal) by extension 'ignore_ament_install'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/raised_goal) by extensions ['colcon_pkg']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/raised_goal) by extension 'colcon_pkg'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/raised_goal) by extensions ['colcon_meta']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/raised_goal) by extension 'colcon_meta'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/raised_goal) by extensions ['ros']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/raised_goal) by extension 'ros'
+[0.524s] DEBUG:colcon.colcon_core.package_identification:Package 'src/raised_goal' with type 'ros.ament_cmake' and name 'raised_goal'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/stowed_goal) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/stowed_goal) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/stowed_goal) by extension 'ignore_ament_install'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/stowed_goal) by extensions ['colcon_pkg']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/stowed_goal) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/stowed_goal) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/stowed_goal) by extension 'colcon_meta'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/stowed_goal) by extensions ['ros']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/stowed_goal) by extension 'ros'
+[0.526s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stowed_goal' with type 'ros.ament_cmake' and name 'stowed_goal'
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.565s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/sam/piper_ros/install
+[0.568s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 56 installed packages in /home/sam/ws_moveit/install
+[0.571s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 378 installed packages in /opt/ros/humble
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'cmake_args' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'cmake_target' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'cmake_clean_first' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'cmake_force_configure' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'ament_cmake_args' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'piper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.672s] DEBUG:colcon.colcon_core.verb:Building package 'piper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sam/piper_ros/build/piper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sam/piper_ros/install/piper', 'merge_install': False, 'path': '/home/sam/piper_ros/src/piper', 'symlink_install': False, 'test_result_base': None}
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_args' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_target' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'piper_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.673s] DEBUG:colcon.colcon_core.verb:Building package 'piper_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sam/piper_ros/build/piper_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sam/piper_ros/install/piper_description', 'merge_install': False, 'path': '/home/sam/piper_ros/src/piper_description', 'symlink_install': False, 'test_result_base': None}
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'piper_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.674s] DEBUG:colcon.colcon_core.verb:Building package 'piper_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sam/piper_ros/build/piper_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sam/piper_ros/install/piper_gazebo', 'merge_install': False, 'path': '/home/sam/piper_ros/src/piper_sim/piper_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'cmake_args' from command line to 'None'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'cmake_target' from command line to 'None'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'cmake_clean_cache' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'cmake_clean_first' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'cmake_force_configure' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'ament_cmake_args' from command line to 'None'
+[0.676s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'catkin_cmake_args' from command line to 'None'
+[0.676s] Level 5:colcon.colcon_core.verb:set package 'piper_humble' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.676s] DEBUG:colcon.colcon_core.verb:Building package 'piper_humble' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sam/piper_ros/build/piper_humble', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sam/piper_ros/install/piper_humble', 'merge_install': False, 'path': '/home/sam/piper_ros/src/piper_humble', 'symlink_install': False, 'test_result_base': None}
+[0.676s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'cmake_args' from command line to 'None'
+[0.676s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'cmake_target' from command line to 'None'
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'piper_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.677s] DEBUG:colcon.colcon_core.verb:Building package 'piper_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sam/piper_ros/build/piper_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sam/piper_ros/install/piper_msgs', 'merge_install': False, 'path': '/home/sam/piper_ros/src/piper_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'piper_mujoco' build argument 'cmake_args' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'piper_mujoco' build argument 'cmake_target' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'piper_mujoco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'piper_mujoco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'piper_mujoco' build argument 'cmake_clean_first' from command line to 'False'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'piper_mujoco' build argument 'cmake_force_configure' from command line to 'False'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'piper_mujoco' build argument 'ament_cmake_args' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'piper_mujoco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'piper_mujoco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.678s] DEBUG:colcon.colcon_core.verb:Building package 'piper_mujoco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sam/piper_ros/build/piper_mujoco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sam/piper_ros/install/piper_mujoco', 'merge_install': False, 'path': '/home/sam/piper_ros/src/piper_sim/piper_mujoco', 'symlink_install': False, 'test_result_base': None}
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'raised_goal' build argument 'cmake_args' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'raised_goal' build argument 'cmake_target' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'raised_goal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'raised_goal' build argument 'cmake_clean_cache' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'raised_goal' build argument 'cmake_clean_first' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'raised_goal' build argument 'cmake_force_configure' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'raised_goal' build argument 'ament_cmake_args' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'raised_goal' build argument 'catkin_cmake_args' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'raised_goal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.679s] DEBUG:colcon.colcon_core.verb:Building package 'raised_goal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sam/piper_ros/build/raised_goal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sam/piper_ros/install/raised_goal', 'merge_install': False, 'path': '/home/sam/piper_ros/src/raised_goal', 'symlink_install': False, 'test_result_base': None}
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'stowed_goal' build argument 'cmake_args' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'stowed_goal' build argument 'cmake_target' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'stowed_goal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'stowed_goal' build argument 'cmake_clean_cache' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'stowed_goal' build argument 'cmake_clean_first' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'stowed_goal' build argument 'cmake_force_configure' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'stowed_goal' build argument 'ament_cmake_args' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'stowed_goal' build argument 'catkin_cmake_args' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'stowed_goal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.681s] DEBUG:colcon.colcon_core.verb:Building package 'stowed_goal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sam/piper_ros/build/stowed_goal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sam/piper_ros/install/stowed_goal', 'merge_install': False, 'path': '/home/sam/piper_ros/src/stowed_goal', 'symlink_install': False, 'test_result_base': None}
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'cmake_target' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'piper_no_gripper_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.682s] DEBUG:colcon.colcon_core.verb:Building package 'piper_no_gripper_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sam/piper_ros/build/piper_no_gripper_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sam/piper_ros/install/piper_no_gripper_moveit', 'merge_install': False, 'path': '/home/sam/piper_ros/src/piper_moveit/piper_no_gripper_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'cmake_target' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'piper_with_gripper_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.683s] DEBUG:colcon.colcon_core.verb:Building package 'piper_with_gripper_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sam/piper_ros/build/piper_with_gripper_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sam/piper_ros/install/piper_with_gripper_moveit', 'merge_install': False, 'path': '/home/sam/piper_ros/src/piper_moveit/piper_with_gripper_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.683s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.685s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.686s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sam/piper_ros/src/piper_description' with build type 'ament_cmake'
+[0.686s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sam/piper_ros/src/piper_description'
+[0.690s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.704s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sam/piper_ros/src/piper' with build type 'ament_python'
+[0.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper', 'ament_prefix_path')
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper/share/piper/hook/ament_prefix_path.ps1'
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper/share/piper/hook/ament_prefix_path.dsv'
+[0.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper/share/piper/hook/ament_prefix_path.sh'
+[0.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.723s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sam/piper_ros/src/piper_sim/piper_gazebo' with build type 'ament_cmake'
+[0.724s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sam/piper_ros/src/piper_sim/piper_gazebo'
+[0.724s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.724s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.737s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sam/piper_ros/src/piper_humble' with build type 'ament_cmake'
+[0.737s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sam/piper_ros/src/piper_humble'
+[0.738s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.738s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/piper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_description -- -j4 -l4
+[1.291s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sam/piper_ros/src/piper'
+[1.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/piper_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_gazebo -- -j4 -l4
+[1.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/piper_humble': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_humble -- -j4 -l4
+[1.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/piper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_description -- -j4 -l4
+[1.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/piper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_description
+[1.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/piper_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_gazebo -- -j4 -l4
+[1.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/piper_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_gazebo
+[1.456s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_description)
+[1.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/piper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_description
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_description' for CMake module files
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_description' for CMake config files
+[1.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_description', 'cmake_prefix_path')
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_description/share/piper_description/hook/cmake_prefix_path.ps1'
+[1.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_description/share/piper_description/hook/cmake_prefix_path.dsv'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_description/share/piper_description/hook/cmake_prefix_path.sh'
+[1.482s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_description/bin'
+[1.482s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_description/lib/pkgconfig/piper_description.pc'
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_description/lib/python3.10/site-packages'
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_description/bin'
+[1.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_description/share/piper_description/package.ps1'
+[1.488s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper_description/share/piper_description/package.dsv'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_description/share/piper_description/package.sh'
+[1.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_description/share/piper_description/package.bash'
+[1.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_description/share/piper_description/package.zsh'
+[1.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper_description/share/colcon-core/packages/piper_description)
+[1.499s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_description)
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_description' for CMake module files
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_description' for CMake config files
+[1.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_description', 'cmake_prefix_path')
+[1.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_description/share/piper_description/hook/cmake_prefix_path.ps1'
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_description/share/piper_description/hook/cmake_prefix_path.dsv'
+[1.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_description/share/piper_description/hook/cmake_prefix_path.sh'
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_description/bin'
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_description/lib/pkgconfig/piper_description.pc'
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_description/lib/python3.10/site-packages'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_description/bin'
+[1.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_description/share/piper_description/package.ps1'
+[1.508s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper_description/share/piper_description/package.dsv'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_description/share/piper_description/package.sh'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_description/share/piper_description/package.bash'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_description/share/piper_description/package.zsh'
+[1.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper_description/share/colcon-core/packages/piper_description)
+[1.513s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sam/piper_ros/src/piper_msgs' with build type 'ament_cmake'
+[1.513s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sam/piper_ros/src/piper_msgs'
+[1.513s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/piper_humble' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_humble -- -j4 -l4
+[1.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/piper_humble': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_humble
+[1.540s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_gazebo)
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_gazebo' for CMake module files
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_gazebo' for CMake config files
+[1.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_gazebo', 'cmake_prefix_path')
+[1.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/hook/cmake_prefix_path.ps1'
+[1.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/piper_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_gazebo
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/hook/cmake_prefix_path.dsv'
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/hook/cmake_prefix_path.sh'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_gazebo/lib'
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_gazebo/bin'
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_gazebo/lib/pkgconfig/piper_gazebo.pc'
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_gazebo/lib/python3.10/site-packages'
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_gazebo/bin'
+[1.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/package.ps1'
+[1.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/package.dsv'
+[1.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/package.sh'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/package.bash'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/package.zsh'
+[1.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper_gazebo/share/colcon-core/packages/piper_gazebo)
+[1.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_gazebo)
+[1.556s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_gazebo' for CMake module files
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_gazebo' for CMake config files
+[1.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_gazebo', 'cmake_prefix_path')
+[1.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/hook/cmake_prefix_path.ps1'
+[1.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/hook/cmake_prefix_path.dsv'
+[1.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/hook/cmake_prefix_path.sh'
+[1.561s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_gazebo/lib'
+[1.561s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_gazebo/bin'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_gazebo/lib/pkgconfig/piper_gazebo.pc'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_gazebo/lib/python3.10/site-packages'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_gazebo/bin'
+[1.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/package.ps1'
+[1.564s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/package.dsv'
+[1.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/package.sh'
+[1.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/package.bash'
+[1.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/package.zsh'
+[1.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper_gazebo/share/colcon-core/packages/piper_gazebo)
+[1.570s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sam/piper_ros/src/piper_sim/piper_mujoco' with build type 'ament_cmake'
+[1.571s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sam/piper_ros/src/piper_sim/piper_mujoco'
+[1.571s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/piper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_msgs -- -j4 -l4
+[1.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/piper_mujoco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_mujoco -- -j4 -l4
+[1.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_humble)
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_humble' for CMake module files
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_humble' for CMake config files
+[1.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_humble', 'cmake_prefix_path')
+[1.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_humble/share/piper_humble/hook/cmake_prefix_path.ps1'
+[1.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/piper_humble' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_humble
+[1.664s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_humble/share/piper_humble/hook/cmake_prefix_path.dsv'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_humble/share/piper_humble/hook/cmake_prefix_path.sh'
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_humble/bin'
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_humble/lib/pkgconfig/piper_humble.pc'
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_humble/lib/python3.10/site-packages'
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_humble/bin'
+[1.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_humble/share/piper_humble/package.ps1'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper_humble/share/piper_humble/package.dsv'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_humble/share/piper_humble/package.sh'
+[1.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_humble/share/piper_humble/package.bash'
+[1.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_humble/share/piper_humble/package.zsh'
+[1.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper_humble/share/colcon-core/packages/piper_humble)
+[1.692s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_humble)
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_humble' for CMake module files
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_humble' for CMake config files
+[1.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_humble', 'cmake_prefix_path')
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_humble/share/piper_humble/hook/cmake_prefix_path.ps1'
+[1.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_humble/share/piper_humble/hook/cmake_prefix_path.dsv'
+[1.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_humble/share/piper_humble/hook/cmake_prefix_path.sh'
+[1.709s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_humble/bin'
+[1.710s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_humble/lib/pkgconfig/piper_humble.pc'
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_humble/lib/python3.10/site-packages'
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_humble/bin'
+[1.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_humble/share/piper_humble/package.ps1'
+[1.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper_humble/share/piper_humble/package.dsv'
+[1.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_humble/share/piper_humble/package.sh'
+[1.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_humble/share/piper_humble/package.bash'
+[1.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_humble/share/piper_humble/package.zsh'
+[1.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper_humble/share/colcon-core/packages/piper_humble)
+[1.726s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sam/piper_ros/src/raised_goal' with build type 'ament_cmake'
+[1.727s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sam/piper_ros/src/raised_goal'
+[1.727s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/raised_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/raised_goal -- -j4 -l4
+[1.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/piper_mujoco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_mujoco -- -j4 -l4
+[1.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/piper_mujoco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_mujoco
+[1.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_mujoco)
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_mujoco' for CMake module files
+[1.942s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_mujoco' for CMake config files
+[1.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_mujoco', 'cmake_prefix_path')
+[1.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/piper_mujoco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_mujoco
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/hook/cmake_prefix_path.ps1'
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/hook/cmake_prefix_path.dsv'
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/hook/cmake_prefix_path.sh'
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_mujoco/lib'
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_mujoco/bin'
+[1.953s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_mujoco/lib/pkgconfig/piper_mujoco.pc'
+[1.953s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_mujoco/lib/python3.10/site-packages'
+[1.960s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_mujoco/bin'
+[1.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/package.ps1'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/package.dsv'
+[1.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/package.sh'
+[1.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/package.bash'
+[1.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/package.zsh'
+[1.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper_mujoco/share/colcon-core/packages/piper_mujoco)
+[1.999s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_mujoco)
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_mujoco' for CMake module files
+[2.001s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_mujoco' for CMake config files
+[2.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_mujoco', 'cmake_prefix_path')
+[2.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/hook/cmake_prefix_path.ps1'
+[2.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/hook/cmake_prefix_path.dsv'
+[2.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/hook/cmake_prefix_path.sh'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_mujoco/lib'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_mujoco/bin'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_mujoco/lib/pkgconfig/piper_mujoco.pc'
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_mujoco/lib/python3.10/site-packages'
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_mujoco/bin'
+[2.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/package.ps1'
+[2.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/package.dsv'
+[2.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/package.sh'
+[2.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/package.bash'
+[2.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_mujoco/share/piper_mujoco/package.zsh'
+[2.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper_mujoco/share/colcon-core/packages/piper_mujoco)
+[2.042s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sam/piper_ros/src/stowed_goal' with build type 'ament_cmake'
+[2.044s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sam/piper_ros/src/stowed_goal'
+[2.045s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.045s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/raised_goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/raised_goal -- -j4 -l4
+[2.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/raised_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/raised_goal
+[2.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/stowed_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/stowed_goal -- -j4 -l4
+[2.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(raised_goal)
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/raised_goal' for CMake module files
+[2.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/raised_goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/raised_goal
+[2.194s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/raised_goal' for CMake config files
+[2.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('raised_goal', 'cmake_prefix_path')
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/raised_goal/share/raised_goal/hook/cmake_prefix_path.ps1'
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/raised_goal/share/raised_goal/hook/cmake_prefix_path.dsv'
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/raised_goal/share/raised_goal/hook/cmake_prefix_path.sh'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/raised_goal/lib'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/raised_goal/bin'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/raised_goal/lib/pkgconfig/raised_goal.pc'
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/raised_goal/lib/python3.10/site-packages'
+[2.202s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/raised_goal/bin'
+[2.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/raised_goal/share/raised_goal/package.ps1'
+[2.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/raised_goal/share/raised_goal/package.dsv'
+[2.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/raised_goal/share/raised_goal/package.sh'
+[2.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/raised_goal/share/raised_goal/package.bash'
+[2.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/raised_goal/share/raised_goal/package.zsh'
+[2.207s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/raised_goal/share/colcon-core/packages/raised_goal)
+[2.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(raised_goal)
+[2.209s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/raised_goal' for CMake module files
+[2.209s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/raised_goal' for CMake config files
+[2.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('raised_goal', 'cmake_prefix_path')
+[2.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/raised_goal/share/raised_goal/hook/cmake_prefix_path.ps1'
+[2.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/raised_goal/share/raised_goal/hook/cmake_prefix_path.dsv'
+[2.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/raised_goal/share/raised_goal/hook/cmake_prefix_path.sh'
+[2.215s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/raised_goal/lib'
+[2.215s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/raised_goal/bin'
+[2.215s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/raised_goal/lib/pkgconfig/raised_goal.pc'
+[2.216s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/raised_goal/lib/python3.10/site-packages'
+[2.216s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/raised_goal/bin'
+[2.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/raised_goal/share/raised_goal/package.ps1'
+[2.220s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/raised_goal/share/raised_goal/package.dsv'
+[2.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/raised_goal/share/raised_goal/package.sh'
+[2.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/raised_goal/share/raised_goal/package.bash'
+[2.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/raised_goal/share/raised_goal/package.zsh'
+[2.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/raised_goal/share/colcon-core/packages/raised_goal)
+[2.228s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sam/piper_ros/src/piper_moveit/piper_no_gripper_moveit' with build type 'ament_cmake'
+[2.228s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sam/piper_ros/src/piper_moveit/piper_no_gripper_moveit'
+[2.229s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/piper_no_gripper_moveit': CMAKE_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:/home/sam/piper_ros/install/stowed_goal:/home/sam/piper_ros/install/raised_goal:/home/sam/piper_ros/install/piper_with_gripper_moveit:/home/sam/piper_ros/install/piper_no_gripper_moveit:/home/sam/piper_ros/install/piper_mujoco:/home/sam/piper_ros/install/piper_msgs:/home/sam/piper_ros/install/piper_humble:/home/sam/piper_ros/install/piper_gazebo:/home/sam/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/sam/ws_moveit/install/moveit_runtime:/home/sam/ws_moveit/install/moveit2_tutorials:/home/sam/ws_moveit/install/moveit:/home/sam/ws_moveit/install/moveit_planners:/home/sam/ws_moveit/install/pilz_industrial_motion_planner:/home/sam/ws_moveit/install/moveit_visual_tools:/home/sam/ws_moveit/install/moveit_task_constructor_visualization:/home/sam/ws_moveit/install/moveit_task_constructor_demo:/home/sam/ws_moveit/install/moveit_task_constructor_capabilities:/home/sam/ws_moveit/install/moveit_task_constructor_core:/home/sam/ws_moveit/install/moveit_ros_control_interface:/home/sam/ws_moveit/install/moveit_plugins:/home/sam/ws_moveit/install/moveit_simple_controller_manager:/home/sam/ws_moveit/install/moveit_setup_assistant:/home/sam/ws_moveit/install/moveit_setup_srdf_plugins:/home/sam/ws_moveit/install/moveit_setup_core_plugins:/home/sam/ws_moveit/install/moveit_setup_controllers:/home/sam/ws_moveit/install/moveit_setup_app_plugins:/home/sam/ws_moveit/install/moveit_setup_framework:/home/sam/ws_moveit/install/moveit_servo:/home/sam/ws_moveit/install/moveit_ros:/home/sam/ws_moveit/install/moveit_ros_visualization:/home/sam/ws_moveit/install/moveit_hybrid_planning:/home/sam/ws_moveit/install/hello_moveit:/home/sam/ws_moveit/install/moveit_ros_planning_interface:/home/sam/ws_moveit/install/moveit_ros_benchmarks:/home/sam/ws_moveit/install/moveit_ros_warehouse:/home/sam/ws_moveit/install/moveit_ros_robot_interaction:/home/sam/ws_moveit/install/moveit_ros_perception:/home/sam/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/sam/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/sam/ws_moveit/install/moveit_ros_move_group:/home/sam/ws_moveit/install/moveit_planners_ompl:/home/sam/ws_moveit/install/moveit_ros_planning:/home/sam/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/sam/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/sam/ws_moveit/install/moveit_planners_chomp:/home/sam/ws_moveit/install/moveit_kinematics:/home/sam/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/sam/ws_moveit/install/chomp_motion_planner:/home/sam/ws_moveit/install/moveit_core:/home/sam/ws_moveit/install/srdfdom:/home/sam/ws_moveit/install/rviz_marker_tools:/home/sam/ws_moveit/install/rosparam_shortcuts:/home/sam/ws_moveit/install/moveit_task_constructor_msgs:/home/sam/ws_moveit/install/moveit_resources_prbt_support:/home/sam/ws_moveit/install/moveit_resources:/home/sam/ws_moveit/install/moveit_resources_pr2_description:/home/sam/ws_moveit/install/moveit_resources_panda_moveit_config:/home/sam/ws_moveit/install/moveit_resources_panda_description:/home/sam/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/sam/ws_moveit/install/moveit_resources_fanuc_description:/home/sam/ws_moveit/install/moveit_common:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_no_gripper_moveit -- -j4 -l4
+[2.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/piper_no_gripper_moveit' returned '0': CMAKE_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:/home/sam/piper_ros/install/stowed_goal:/home/sam/piper_ros/install/raised_goal:/home/sam/piper_ros/install/piper_with_gripper_moveit:/home/sam/piper_ros/install/piper_no_gripper_moveit:/home/sam/piper_ros/install/piper_mujoco:/home/sam/piper_ros/install/piper_msgs:/home/sam/piper_ros/install/piper_humble:/home/sam/piper_ros/install/piper_gazebo:/home/sam/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/sam/ws_moveit/install/moveit_runtime:/home/sam/ws_moveit/install/moveit2_tutorials:/home/sam/ws_moveit/install/moveit:/home/sam/ws_moveit/install/moveit_planners:/home/sam/ws_moveit/install/pilz_industrial_motion_planner:/home/sam/ws_moveit/install/moveit_visual_tools:/home/sam/ws_moveit/install/moveit_task_constructor_visualization:/home/sam/ws_moveit/install/moveit_task_constructor_demo:/home/sam/ws_moveit/install/moveit_task_constructor_capabilities:/home/sam/ws_moveit/install/moveit_task_constructor_core:/home/sam/ws_moveit/install/moveit_ros_control_interface:/home/sam/ws_moveit/install/moveit_plugins:/home/sam/ws_moveit/install/moveit_simple_controller_manager:/home/sam/ws_moveit/install/moveit_setup_assistant:/home/sam/ws_moveit/install/moveit_setup_srdf_plugins:/home/sam/ws_moveit/install/moveit_setup_core_plugins:/home/sam/ws_moveit/install/moveit_setup_controllers:/home/sam/ws_moveit/install/moveit_setup_app_plugins:/home/sam/ws_moveit/install/moveit_setup_framework:/home/sam/ws_moveit/install/moveit_servo:/home/sam/ws_moveit/install/moveit_ros:/home/sam/ws_moveit/install/moveit_ros_visualization:/home/sam/ws_moveit/install/moveit_hybrid_planning:/home/sam/ws_moveit/install/hello_moveit:/home/sam/ws_moveit/install/moveit_ros_planning_interface:/home/sam/ws_moveit/install/moveit_ros_benchmarks:/home/sam/ws_moveit/install/moveit_ros_warehouse:/home/sam/ws_moveit/install/moveit_ros_robot_interaction:/home/sam/ws_moveit/install/moveit_ros_perception:/home/sam/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/sam/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/sam/ws_moveit/install/moveit_ros_move_group:/home/sam/ws_moveit/install/moveit_planners_ompl:/home/sam/ws_moveit/install/moveit_ros_planning:/home/sam/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/sam/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/sam/ws_moveit/install/moveit_planners_chomp:/home/sam/ws_moveit/install/moveit_kinematics:/home/sam/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/sam/ws_moveit/install/chomp_motion_planner:/home/sam/ws_moveit/install/moveit_core:/home/sam/ws_moveit/install/srdfdom:/home/sam/ws_moveit/install/rviz_marker_tools:/home/sam/ws_moveit/install/rosparam_shortcuts:/home/sam/ws_moveit/install/moveit_task_constructor_msgs:/home/sam/ws_moveit/install/moveit_resources_prbt_support:/home/sam/ws_moveit/install/moveit_resources:/home/sam/ws_moveit/install/moveit_resources_pr2_description:/home/sam/ws_moveit/install/moveit_resources_panda_moveit_config:/home/sam/ws_moveit/install/moveit_resources_panda_description:/home/sam/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/sam/ws_moveit/install/moveit_resources_fanuc_description:/home/sam/ws_moveit/install/moveit_common:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_no_gripper_moveit -- -j4 -l4
+[2.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/piper_no_gripper_moveit': CMAKE_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:/home/sam/piper_ros/install/stowed_goal:/home/sam/piper_ros/install/raised_goal:/home/sam/piper_ros/install/piper_with_gripper_moveit:/home/sam/piper_ros/install/piper_no_gripper_moveit:/home/sam/piper_ros/install/piper_mujoco:/home/sam/piper_ros/install/piper_msgs:/home/sam/piper_ros/install/piper_humble:/home/sam/piper_ros/install/piper_gazebo:/home/sam/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/sam/ws_moveit/install/moveit_runtime:/home/sam/ws_moveit/install/moveit2_tutorials:/home/sam/ws_moveit/install/moveit:/home/sam/ws_moveit/install/moveit_planners:/home/sam/ws_moveit/install/pilz_industrial_motion_planner:/home/sam/ws_moveit/install/moveit_visual_tools:/home/sam/ws_moveit/install/moveit_task_constructor_visualization:/home/sam/ws_moveit/install/moveit_task_constructor_demo:/home/sam/ws_moveit/install/moveit_task_constructor_capabilities:/home/sam/ws_moveit/install/moveit_task_constructor_core:/home/sam/ws_moveit/install/moveit_ros_control_interface:/home/sam/ws_moveit/install/moveit_plugins:/home/sam/ws_moveit/install/moveit_simple_controller_manager:/home/sam/ws_moveit/install/moveit_setup_assistant:/home/sam/ws_moveit/install/moveit_setup_srdf_plugins:/home/sam/ws_moveit/install/moveit_setup_core_plugins:/home/sam/ws_moveit/install/moveit_setup_controllers:/home/sam/ws_moveit/install/moveit_setup_app_plugins:/home/sam/ws_moveit/install/moveit_setup_framework:/home/sam/ws_moveit/install/moveit_servo:/home/sam/ws_moveit/install/moveit_ros:/home/sam/ws_moveit/install/moveit_ros_visualization:/home/sam/ws_moveit/install/moveit_hybrid_planning:/home/sam/ws_moveit/install/hello_moveit:/home/sam/ws_moveit/install/moveit_ros_planning_interface:/home/sam/ws_moveit/install/moveit_ros_benchmarks:/home/sam/ws_moveit/install/moveit_ros_warehouse:/home/sam/ws_moveit/install/moveit_ros_robot_interaction:/home/sam/ws_moveit/install/moveit_ros_perception:/home/sam/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/sam/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/sam/ws_moveit/install/moveit_ros_move_group:/home/sam/ws_moveit/install/moveit_planners_ompl:/home/sam/ws_moveit/install/moveit_ros_planning:/home/sam/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/sam/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/sam/ws_moveit/install/moveit_planners_chomp:/home/sam/ws_moveit/install/moveit_kinematics:/home/sam/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/sam/ws_moveit/install/chomp_motion_planner:/home/sam/ws_moveit/install/moveit_core:/home/sam/ws_moveit/install/srdfdom:/home/sam/ws_moveit/install/rviz_marker_tools:/home/sam/ws_moveit/install/rosparam_shortcuts:/home/sam/ws_moveit/install/moveit_task_constructor_msgs:/home/sam/ws_moveit/install/moveit_resources_prbt_support:/home/sam/ws_moveit/install/moveit_resources:/home/sam/ws_moveit/install/moveit_resources_pr2_description:/home/sam/ws_moveit/install/moveit_resources_panda_moveit_config:/home/sam/ws_moveit/install/moveit_resources_panda_description:/home/sam/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/sam/ws_moveit/install/moveit_resources_fanuc_description:/home/sam/ws_moveit/install/moveit_common:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_no_gripper_moveit
+[2.610s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_no_gripper_moveit)
+[2.610s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_no_gripper_moveit' for CMake module files
+[2.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/piper_no_gripper_moveit' returned '0': CMAKE_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:/home/sam/piper_ros/install/stowed_goal:/home/sam/piper_ros/install/raised_goal:/home/sam/piper_ros/install/piper_with_gripper_moveit:/home/sam/piper_ros/install/piper_no_gripper_moveit:/home/sam/piper_ros/install/piper_mujoco:/home/sam/piper_ros/install/piper_msgs:/home/sam/piper_ros/install/piper_humble:/home/sam/piper_ros/install/piper_gazebo:/home/sam/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/sam/ws_moveit/install/moveit_runtime:/home/sam/ws_moveit/install/moveit2_tutorials:/home/sam/ws_moveit/install/moveit:/home/sam/ws_moveit/install/moveit_planners:/home/sam/ws_moveit/install/pilz_industrial_motion_planner:/home/sam/ws_moveit/install/moveit_visual_tools:/home/sam/ws_moveit/install/moveit_task_constructor_visualization:/home/sam/ws_moveit/install/moveit_task_constructor_demo:/home/sam/ws_moveit/install/moveit_task_constructor_capabilities:/home/sam/ws_moveit/install/moveit_task_constructor_core:/home/sam/ws_moveit/install/moveit_ros_control_interface:/home/sam/ws_moveit/install/moveit_plugins:/home/sam/ws_moveit/install/moveit_simple_controller_manager:/home/sam/ws_moveit/install/moveit_setup_assistant:/home/sam/ws_moveit/install/moveit_setup_srdf_plugins:/home/sam/ws_moveit/install/moveit_setup_core_plugins:/home/sam/ws_moveit/install/moveit_setup_controllers:/home/sam/ws_moveit/install/moveit_setup_app_plugins:/home/sam/ws_moveit/install/moveit_setup_framework:/home/sam/ws_moveit/install/moveit_servo:/home/sam/ws_moveit/install/moveit_ros:/home/sam/ws_moveit/install/moveit_ros_visualization:/home/sam/ws_moveit/install/moveit_hybrid_planning:/home/sam/ws_moveit/install/hello_moveit:/home/sam/ws_moveit/install/moveit_ros_planning_interface:/home/sam/ws_moveit/install/moveit_ros_benchmarks:/home/sam/ws_moveit/install/moveit_ros_warehouse:/home/sam/ws_moveit/install/moveit_ros_robot_interaction:/home/sam/ws_moveit/install/moveit_ros_perception:/home/sam/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/sam/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/sam/ws_moveit/install/moveit_ros_move_group:/home/sam/ws_moveit/install/moveit_planners_ompl:/home/sam/ws_moveit/install/moveit_ros_planning:/home/sam/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/sam/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/sam/ws_moveit/install/moveit_planners_chomp:/home/sam/ws_moveit/install/moveit_kinematics:/home/sam/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/sam/ws_moveit/install/chomp_motion_planner:/home/sam/ws_moveit/install/moveit_core:/home/sam/ws_moveit/install/srdfdom:/home/sam/ws_moveit/install/rviz_marker_tools:/home/sam/ws_moveit/install/rosparam_shortcuts:/home/sam/ws_moveit/install/moveit_task_constructor_msgs:/home/sam/ws_moveit/install/moveit_resources_prbt_support:/home/sam/ws_moveit/install/moveit_resources:/home/sam/ws_moveit/install/moveit_resources_pr2_description:/home/sam/ws_moveit/install/moveit_resources_panda_moveit_config:/home/sam/ws_moveit/install/moveit_resources_panda_description:/home/sam/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/sam/ws_moveit/install/moveit_resources_fanuc_description:/home/sam/ws_moveit/install/moveit_common:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_no_gripper_moveit
+[2.613s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_no_gripper_moveit' for CMake config files
+[2.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_no_gripper_moveit', 'cmake_prefix_path')
+[2.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/hook/cmake_prefix_path.ps1'
+[2.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/hook/cmake_prefix_path.dsv'
+[2.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/hook/cmake_prefix_path.sh'
+[2.625s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_no_gripper_moveit/bin'
+[2.625s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_no_gripper_moveit/lib/pkgconfig/piper_no_gripper_moveit.pc'
+[2.626s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_no_gripper_moveit/lib/python3.10/site-packages'
+[2.626s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_no_gripper_moveit/bin'
+[2.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.ps1'
+[2.627s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.dsv'
+[2.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.sh'
+[2.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.bash'
+[2.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.zsh'
+[2.631s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper_no_gripper_moveit/share/colcon-core/packages/piper_no_gripper_moveit)
+[2.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_no_gripper_moveit)
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_no_gripper_moveit' for CMake module files
+[2.634s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_no_gripper_moveit' for CMake config files
+[2.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_no_gripper_moveit', 'cmake_prefix_path')
+[2.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/hook/cmake_prefix_path.ps1'
+[2.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/hook/cmake_prefix_path.dsv'
+[2.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/hook/cmake_prefix_path.sh'
+[2.638s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_no_gripper_moveit/bin'
+[2.638s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_no_gripper_moveit/lib/pkgconfig/piper_no_gripper_moveit.pc'
+[2.638s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_no_gripper_moveit/lib/python3.10/site-packages'
+[2.639s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_no_gripper_moveit/bin'
+[2.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.ps1'
+[2.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.dsv'
+[2.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.sh'
+[2.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.bash'
+[2.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_no_gripper_moveit/share/piper_no_gripper_moveit/package.zsh'
+[2.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper_no_gripper_moveit/share/colcon-core/packages/piper_no_gripper_moveit)
+[2.648s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sam/piper_ros/src/piper_moveit/piper_with_gripper_moveit' with build type 'ament_cmake'
+[2.648s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sam/piper_ros/src/piper_moveit/piper_with_gripper_moveit'
+[2.649s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/src/piper': PYTHONPATH=/home/sam/piper_ros/build/piper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sam/piper_ros/install/piper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/piper build --build-base /home/sam/piper_ros/build/piper/build install --record /home/sam/piper_ros/build/piper/install.log --single-version-externally-managed install_data
+[2.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/stowed_goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/stowed_goal -- -j4 -l4
+[2.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/stowed_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/stowed_goal
+[2.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/piper_with_gripper_moveit': CMAKE_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:/home/sam/piper_ros/install/stowed_goal:/home/sam/piper_ros/install/raised_goal:/home/sam/piper_ros/install/piper_with_gripper_moveit:/home/sam/piper_ros/install/piper_no_gripper_moveit:/home/sam/piper_ros/install/piper_mujoco:/home/sam/piper_ros/install/piper_msgs:/home/sam/piper_ros/install/piper_humble:/home/sam/piper_ros/install/piper_gazebo:/home/sam/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/sam/ws_moveit/install/moveit_runtime:/home/sam/ws_moveit/install/moveit2_tutorials:/home/sam/ws_moveit/install/moveit:/home/sam/ws_moveit/install/moveit_planners:/home/sam/ws_moveit/install/pilz_industrial_motion_planner:/home/sam/ws_moveit/install/moveit_visual_tools:/home/sam/ws_moveit/install/moveit_task_constructor_visualization:/home/sam/ws_moveit/install/moveit_task_constructor_demo:/home/sam/ws_moveit/install/moveit_task_constructor_capabilities:/home/sam/ws_moveit/install/moveit_task_constructor_core:/home/sam/ws_moveit/install/moveit_ros_control_interface:/home/sam/ws_moveit/install/moveit_plugins:/home/sam/ws_moveit/install/moveit_simple_controller_manager:/home/sam/ws_moveit/install/moveit_setup_assistant:/home/sam/ws_moveit/install/moveit_setup_srdf_plugins:/home/sam/ws_moveit/install/moveit_setup_core_plugins:/home/sam/ws_moveit/install/moveit_setup_controllers:/home/sam/ws_moveit/install/moveit_setup_app_plugins:/home/sam/ws_moveit/install/moveit_setup_framework:/home/sam/ws_moveit/install/moveit_servo:/home/sam/ws_moveit/install/moveit_ros:/home/sam/ws_moveit/install/moveit_ros_visualization:/home/sam/ws_moveit/install/moveit_hybrid_planning:/home/sam/ws_moveit/install/hello_moveit:/home/sam/ws_moveit/install/moveit_ros_planning_interface:/home/sam/ws_moveit/install/moveit_ros_benchmarks:/home/sam/ws_moveit/install/moveit_ros_warehouse:/home/sam/ws_moveit/install/moveit_ros_robot_interaction:/home/sam/ws_moveit/install/moveit_ros_perception:/home/sam/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/sam/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/sam/ws_moveit/install/moveit_ros_move_group:/home/sam/ws_moveit/install/moveit_planners_ompl:/home/sam/ws_moveit/install/moveit_ros_planning:/home/sam/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/sam/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/sam/ws_moveit/install/moveit_planners_chomp:/home/sam/ws_moveit/install/moveit_kinematics:/home/sam/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/sam/ws_moveit/install/chomp_motion_planner:/home/sam/ws_moveit/install/moveit_core:/home/sam/ws_moveit/install/srdfdom:/home/sam/ws_moveit/install/rviz_marker_tools:/home/sam/ws_moveit/install/rosparam_shortcuts:/home/sam/ws_moveit/install/moveit_task_constructor_msgs:/home/sam/ws_moveit/install/moveit_resources_prbt_support:/home/sam/ws_moveit/install/moveit_resources:/home/sam/ws_moveit/install/moveit_resources_pr2_description:/home/sam/ws_moveit/install/moveit_resources_panda_moveit_config:/home/sam/ws_moveit/install/moveit_resources_panda_description:/home/sam/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/sam/ws_moveit/install/moveit_resources_fanuc_description:/home/sam/ws_moveit/install/moveit_common:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_with_gripper_moveit -- -j4 -l4
+[2.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stowed_goal)
+[2.740s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/stowed_goal' for CMake module files
+[2.744s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/stowed_goal' for CMake config files
+[2.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/stowed_goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/stowed_goal
+[2.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('stowed_goal', 'cmake_prefix_path')
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/hook/cmake_prefix_path.ps1'
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/hook/cmake_prefix_path.dsv'
+[2.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/hook/cmake_prefix_path.sh'
+[2.757s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/stowed_goal/lib'
+[2.757s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/stowed_goal/bin'
+[2.757s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/stowed_goal/lib/pkgconfig/stowed_goal.pc'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/stowed_goal/lib/python3.10/site-packages'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/stowed_goal/bin'
+[2.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/package.ps1'
+[2.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/package.dsv'
+[2.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/package.sh'
+[2.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/package.bash'
+[2.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/package.zsh'
+[2.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/stowed_goal/share/colcon-core/packages/stowed_goal)
+[2.771s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stowed_goal)
+[2.772s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/stowed_goal' for CMake module files
+[2.773s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/stowed_goal' for CMake config files
+[2.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('stowed_goal', 'cmake_prefix_path')
+[2.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/hook/cmake_prefix_path.ps1'
+[2.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/hook/cmake_prefix_path.dsv'
+[2.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/hook/cmake_prefix_path.sh'
+[2.778s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/stowed_goal/lib'
+[2.778s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/stowed_goal/bin'
+[2.778s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/stowed_goal/lib/pkgconfig/stowed_goal.pc'
+[2.778s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/stowed_goal/lib/python3.10/site-packages'
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/stowed_goal/bin'
+[2.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/package.ps1'
+[2.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/package.dsv'
+[2.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/package.sh'
+[2.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/package.bash'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/stowed_goal/share/stowed_goal/package.zsh'
+[2.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/stowed_goal/share/colcon-core/packages/stowed_goal)
+[2.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/piper_with_gripper_moveit' returned '0': CMAKE_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:/home/sam/piper_ros/install/stowed_goal:/home/sam/piper_ros/install/raised_goal:/home/sam/piper_ros/install/piper_with_gripper_moveit:/home/sam/piper_ros/install/piper_no_gripper_moveit:/home/sam/piper_ros/install/piper_mujoco:/home/sam/piper_ros/install/piper_msgs:/home/sam/piper_ros/install/piper_humble:/home/sam/piper_ros/install/piper_gazebo:/home/sam/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/sam/ws_moveit/install/moveit_runtime:/home/sam/ws_moveit/install/moveit2_tutorials:/home/sam/ws_moveit/install/moveit:/home/sam/ws_moveit/install/moveit_planners:/home/sam/ws_moveit/install/pilz_industrial_motion_planner:/home/sam/ws_moveit/install/moveit_visual_tools:/home/sam/ws_moveit/install/moveit_task_constructor_visualization:/home/sam/ws_moveit/install/moveit_task_constructor_demo:/home/sam/ws_moveit/install/moveit_task_constructor_capabilities:/home/sam/ws_moveit/install/moveit_task_constructor_core:/home/sam/ws_moveit/install/moveit_ros_control_interface:/home/sam/ws_moveit/install/moveit_plugins:/home/sam/ws_moveit/install/moveit_simple_controller_manager:/home/sam/ws_moveit/install/moveit_setup_assistant:/home/sam/ws_moveit/install/moveit_setup_srdf_plugins:/home/sam/ws_moveit/install/moveit_setup_core_plugins:/home/sam/ws_moveit/install/moveit_setup_controllers:/home/sam/ws_moveit/install/moveit_setup_app_plugins:/home/sam/ws_moveit/install/moveit_setup_framework:/home/sam/ws_moveit/install/moveit_servo:/home/sam/ws_moveit/install/moveit_ros:/home/sam/ws_moveit/install/moveit_ros_visualization:/home/sam/ws_moveit/install/moveit_hybrid_planning:/home/sam/ws_moveit/install/hello_moveit:/home/sam/ws_moveit/install/moveit_ros_planning_interface:/home/sam/ws_moveit/install/moveit_ros_benchmarks:/home/sam/ws_moveit/install/moveit_ros_warehouse:/home/sam/ws_moveit/install/moveit_ros_robot_interaction:/home/sam/ws_moveit/install/moveit_ros_perception:/home/sam/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/sam/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/sam/ws_moveit/install/moveit_ros_move_group:/home/sam/ws_moveit/install/moveit_planners_ompl:/home/sam/ws_moveit/install/moveit_ros_planning:/home/sam/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/sam/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/sam/ws_moveit/install/moveit_planners_chomp:/home/sam/ws_moveit/install/moveit_kinematics:/home/sam/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/sam/ws_moveit/install/chomp_motion_planner:/home/sam/ws_moveit/install/moveit_core:/home/sam/ws_moveit/install/srdfdom:/home/sam/ws_moveit/install/rviz_marker_tools:/home/sam/ws_moveit/install/rosparam_shortcuts:/home/sam/ws_moveit/install/moveit_task_constructor_msgs:/home/sam/ws_moveit/install/moveit_resources_prbt_support:/home/sam/ws_moveit/install/moveit_resources:/home/sam/ws_moveit/install/moveit_resources_pr2_description:/home/sam/ws_moveit/install/moveit_resources_panda_moveit_config:/home/sam/ws_moveit/install/moveit_resources_panda_description:/home/sam/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/sam/ws_moveit/install/moveit_resources_fanuc_description:/home/sam/ws_moveit/install/moveit_common:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_with_gripper_moveit -- -j4 -l4
+[2.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/piper_with_gripper_moveit': CMAKE_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:/home/sam/piper_ros/install/stowed_goal:/home/sam/piper_ros/install/raised_goal:/home/sam/piper_ros/install/piper_with_gripper_moveit:/home/sam/piper_ros/install/piper_no_gripper_moveit:/home/sam/piper_ros/install/piper_mujoco:/home/sam/piper_ros/install/piper_msgs:/home/sam/piper_ros/install/piper_humble:/home/sam/piper_ros/install/piper_gazebo:/home/sam/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/sam/ws_moveit/install/moveit_runtime:/home/sam/ws_moveit/install/moveit2_tutorials:/home/sam/ws_moveit/install/moveit:/home/sam/ws_moveit/install/moveit_planners:/home/sam/ws_moveit/install/pilz_industrial_motion_planner:/home/sam/ws_moveit/install/moveit_visual_tools:/home/sam/ws_moveit/install/moveit_task_constructor_visualization:/home/sam/ws_moveit/install/moveit_task_constructor_demo:/home/sam/ws_moveit/install/moveit_task_constructor_capabilities:/home/sam/ws_moveit/install/moveit_task_constructor_core:/home/sam/ws_moveit/install/moveit_ros_control_interface:/home/sam/ws_moveit/install/moveit_plugins:/home/sam/ws_moveit/install/moveit_simple_controller_manager:/home/sam/ws_moveit/install/moveit_setup_assistant:/home/sam/ws_moveit/install/moveit_setup_srdf_plugins:/home/sam/ws_moveit/install/moveit_setup_core_plugins:/home/sam/ws_moveit/install/moveit_setup_controllers:/home/sam/ws_moveit/install/moveit_setup_app_plugins:/home/sam/ws_moveit/install/moveit_setup_framework:/home/sam/ws_moveit/install/moveit_servo:/home/sam/ws_moveit/install/moveit_ros:/home/sam/ws_moveit/install/moveit_ros_visualization:/home/sam/ws_moveit/install/moveit_hybrid_planning:/home/sam/ws_moveit/install/hello_moveit:/home/sam/ws_moveit/install/moveit_ros_planning_interface:/home/sam/ws_moveit/install/moveit_ros_benchmarks:/home/sam/ws_moveit/install/moveit_ros_warehouse:/home/sam/ws_moveit/install/moveit_ros_robot_interaction:/home/sam/ws_moveit/install/moveit_ros_perception:/home/sam/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/sam/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/sam/ws_moveit/install/moveit_ros_move_group:/home/sam/ws_moveit/install/moveit_planners_ompl:/home/sam/ws_moveit/install/moveit_ros_planning:/home/sam/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/sam/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/sam/ws_moveit/install/moveit_planners_chomp:/home/sam/ws_moveit/install/moveit_kinematics:/home/sam/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/sam/ws_moveit/install/chomp_motion_planner:/home/sam/ws_moveit/install/moveit_core:/home/sam/ws_moveit/install/srdfdom:/home/sam/ws_moveit/install/rviz_marker_tools:/home/sam/ws_moveit/install/rosparam_shortcuts:/home/sam/ws_moveit/install/moveit_task_constructor_msgs:/home/sam/ws_moveit/install/moveit_resources_prbt_support:/home/sam/ws_moveit/install/moveit_resources:/home/sam/ws_moveit/install/moveit_resources_pr2_description:/home/sam/ws_moveit/install/moveit_resources_panda_moveit_config:/home/sam/ws_moveit/install/moveit_resources_panda_description:/home/sam/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/sam/ws_moveit/install/moveit_resources_fanuc_description:/home/sam/ws_moveit/install/moveit_common:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_with_gripper_moveit
+[3.038s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_with_gripper_moveit)
+[3.039s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_with_gripper_moveit' for CMake module files
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_with_gripper_moveit' for CMake config files
+[3.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_with_gripper_moveit', 'cmake_prefix_path')
+[3.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/cmake_prefix_path.ps1'
+[3.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/cmake_prefix_path.dsv'
+[3.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/cmake_prefix_path.sh'
+[3.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/piper_with_gripper_moveit' returned '0': CMAKE_PREFIX_PATH=/home/sam/piper_ros/install/piper_description:/home/sam/piper_ros/install/stowed_goal:/home/sam/piper_ros/install/raised_goal:/home/sam/piper_ros/install/piper_with_gripper_moveit:/home/sam/piper_ros/install/piper_no_gripper_moveit:/home/sam/piper_ros/install/piper_mujoco:/home/sam/piper_ros/install/piper_msgs:/home/sam/piper_ros/install/piper_humble:/home/sam/piper_ros/install/piper_gazebo:/home/sam/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/sam/ws_moveit/install/moveit_runtime:/home/sam/ws_moveit/install/moveit2_tutorials:/home/sam/ws_moveit/install/moveit:/home/sam/ws_moveit/install/moveit_planners:/home/sam/ws_moveit/install/pilz_industrial_motion_planner:/home/sam/ws_moveit/install/moveit_visual_tools:/home/sam/ws_moveit/install/moveit_task_constructor_visualization:/home/sam/ws_moveit/install/moveit_task_constructor_demo:/home/sam/ws_moveit/install/moveit_task_constructor_capabilities:/home/sam/ws_moveit/install/moveit_task_constructor_core:/home/sam/ws_moveit/install/moveit_ros_control_interface:/home/sam/ws_moveit/install/moveit_plugins:/home/sam/ws_moveit/install/moveit_simple_controller_manager:/home/sam/ws_moveit/install/moveit_setup_assistant:/home/sam/ws_moveit/install/moveit_setup_srdf_plugins:/home/sam/ws_moveit/install/moveit_setup_core_plugins:/home/sam/ws_moveit/install/moveit_setup_controllers:/home/sam/ws_moveit/install/moveit_setup_app_plugins:/home/sam/ws_moveit/install/moveit_setup_framework:/home/sam/ws_moveit/install/moveit_servo:/home/sam/ws_moveit/install/moveit_ros:/home/sam/ws_moveit/install/moveit_ros_visualization:/home/sam/ws_moveit/install/moveit_hybrid_planning:/home/sam/ws_moveit/install/hello_moveit:/home/sam/ws_moveit/install/moveit_ros_planning_interface:/home/sam/ws_moveit/install/moveit_ros_benchmarks:/home/sam/ws_moveit/install/moveit_ros_warehouse:/home/sam/ws_moveit/install/moveit_ros_robot_interaction:/home/sam/ws_moveit/install/moveit_ros_perception:/home/sam/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/sam/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/sam/ws_moveit/install/moveit_ros_move_group:/home/sam/ws_moveit/install/moveit_planners_ompl:/home/sam/ws_moveit/install/moveit_ros_planning:/home/sam/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/sam/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/sam/ws_moveit/install/moveit_planners_chomp:/home/sam/ws_moveit/install/moveit_kinematics:/home/sam/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/sam/ws_moveit/install/chomp_motion_planner:/home/sam/ws_moveit/install/moveit_core:/home/sam/ws_moveit/install/srdfdom:/home/sam/ws_moveit/install/rviz_marker_tools:/home/sam/ws_moveit/install/rosparam_shortcuts:/home/sam/ws_moveit/install/moveit_task_constructor_msgs:/home/sam/ws_moveit/install/moveit_resources_prbt_support:/home/sam/ws_moveit/install/moveit_resources:/home/sam/ws_moveit/install/moveit_resources_pr2_description:/home/sam/ws_moveit/install/moveit_resources_panda_moveit_config:/home/sam/ws_moveit/install/moveit_resources_panda_description:/home/sam/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/sam/ws_moveit/install/moveit_resources_fanuc_description:/home/sam/ws_moveit/install/moveit_common:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_with_gripper_moveit
+[3.060s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_with_gripper_moveit/bin'
+[3.061s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_with_gripper_moveit/lib/pkgconfig/piper_with_gripper_moveit.pc'
+[3.064s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_with_gripper_moveit/lib/python3.10/site-packages'
+[3.064s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_with_gripper_moveit/bin'
+[3.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.ps1'
+[3.075s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.dsv'
+[3.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.sh'
+[3.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.bash'
+[3.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.zsh'
+[3.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper_with_gripper_moveit/share/colcon-core/packages/piper_with_gripper_moveit)
+[3.089s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_with_gripper_moveit)
+[3.089s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_with_gripper_moveit' for CMake module files
+[3.090s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_with_gripper_moveit' for CMake config files
+[3.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_with_gripper_moveit', 'cmake_prefix_path')
+[3.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/cmake_prefix_path.ps1'
+[3.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/cmake_prefix_path.dsv'
+[3.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/hook/cmake_prefix_path.sh'
+[3.104s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_with_gripper_moveit/bin'
+[3.105s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_with_gripper_moveit/lib/pkgconfig/piper_with_gripper_moveit.pc'
+[3.105s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_with_gripper_moveit/lib/python3.10/site-packages'
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_with_gripper_moveit/bin'
+[3.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.ps1'
+[3.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.dsv'
+[3.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.sh'
+[3.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.bash'
+[3.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_with_gripper_moveit/share/piper_with_gripper_moveit/package.zsh'
+[3.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper_with_gripper_moveit/share/colcon-core/packages/piper_with_gripper_moveit)
+[3.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/piper_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_msgs -- -j4 -l4
+[3.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sam/piper_ros/build/piper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_msgs
+[3.681s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper' for CMake module files
+[3.682s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper' for CMake config files
+[3.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/src/piper' returned '0': PYTHONPATH=/home/sam/piper_ros/build/piper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sam/piper_ros/install/piper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/piper build --build-base /home/sam/piper_ros/build/piper/build install --record /home/sam/piper_ros/build/piper/install.log --single-version-externally-managed install_data
+[3.686s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper/lib'
+[3.686s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper/bin'
+[3.686s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper/lib/pkgconfig/piper.pc'
+[3.687s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper/lib/python3.10/site-packages'
+[3.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper', 'pythonpath')
+[3.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper/share/piper/hook/pythonpath.ps1'
+[3.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper/share/piper/hook/pythonpath.dsv'
+[3.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper/share/piper/hook/pythonpath.sh'
+[3.693s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper/bin'
+[3.695s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper)
+[3.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper/share/piper/package.ps1'
+[3.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper/share/piper/package.dsv'
+[3.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper/share/piper/package.sh'
+[3.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper/share/piper/package.bash'
+[3.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper/share/piper/package.zsh'
+[3.702s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper/share/colcon-core/packages/piper)
+[3.733s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_msgs)
+[3.733s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_msgs' for CMake module files
+[3.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sam/piper_ros/build/piper_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_msgs
+[3.735s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_msgs' for CMake config files
+[3.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_msgs', 'cmake_prefix_path')
+[3.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/hook/cmake_prefix_path.ps1'
+[3.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/hook/cmake_prefix_path.dsv'
+[3.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/hook/cmake_prefix_path.sh'
+[3.741s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_msgs/lib'
+[3.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_msgs', 'ld_library_path_lib')
+[3.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/hook/ld_library_path_lib.ps1'
+[3.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/hook/ld_library_path_lib.dsv'
+[3.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/hook/ld_library_path_lib.sh'
+[3.744s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_msgs/bin'
+[3.744s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_msgs/lib/pkgconfig/piper_msgs.pc'
+[3.744s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_msgs/lib/python3.10/site-packages'
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_msgs/bin'
+[3.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/package.ps1'
+[3.746s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/package.dsv'
+[3.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/package.sh'
+[3.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/package.bash'
+[3.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/package.zsh'
+[3.750s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper_msgs/share/colcon-core/packages/piper_msgs)
+[3.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(piper_msgs)
+[3.752s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_msgs' for CMake module files
+[3.754s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_msgs' for CMake config files
+[3.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_msgs', 'cmake_prefix_path')
+[3.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/hook/cmake_prefix_path.ps1'
+[3.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/hook/cmake_prefix_path.dsv'
+[3.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/hook/cmake_prefix_path.sh'
+[3.758s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_msgs/lib'
+[3.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('piper_msgs', 'ld_library_path_lib')
+[3.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/hook/ld_library_path_lib.ps1'
+[3.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/hook/ld_library_path_lib.dsv'
+[3.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/hook/ld_library_path_lib.sh'
+[3.762s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_msgs/bin'
+[3.762s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_msgs/lib/pkgconfig/piper_msgs.pc'
+[3.762s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_msgs/lib/python3.10/site-packages'
+[3.763s] Level 1:colcon.colcon_core.environment:checking '/home/sam/piper_ros/install/piper_msgs/bin'
+[3.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/package.ps1'
+[3.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/package.dsv'
+[3.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/package.sh'
+[3.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/package.bash'
+[3.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/sam/piper_ros/install/piper_msgs/share/piper_msgs/package.zsh'
+[3.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sam/piper_ros/install/piper_msgs/share/colcon-core/packages/piper_msgs)
+[3.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.771s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.787s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.787s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.788s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.856s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.857s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sam/piper_ros/install/local_setup.ps1'
+[3.859s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sam/piper_ros/install/_local_setup_util_ps1.py'
+[3.862s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sam/piper_ros/install/setup.ps1'
+[3.873s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sam/piper_ros/install/local_setup.sh'
+[3.875s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sam/piper_ros/install/_local_setup_util_sh.py'
+[3.876s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sam/piper_ros/install/setup.sh'
+[3.885s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sam/piper_ros/install/local_setup.bash'
+[3.886s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sam/piper_ros/install/setup.bash'
+[3.896s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sam/piper_ros/install/local_setup.zsh'
+[3.898s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sam/piper_ros/install/setup.zsh'

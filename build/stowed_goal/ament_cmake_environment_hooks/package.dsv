@@ -1,0 +1,4 @@
+source;share/stowed_goal/local_setup.bash
+source;share/stowed_goal/local_setup.dsv
+source;share/stowed_goal/local_setup.sh
+source;share/stowed_goal/local_setup.zsh

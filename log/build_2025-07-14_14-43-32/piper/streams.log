@@ -1,0 +1,28 @@
+[1.975s] Invoking command in '/home/sam/piper_ros/src/piper': PYTHONPATH=/home/sam/piper_ros/build/piper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sam/piper_ros/install/piper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/piper build --build-base /home/sam/piper_ros/build/piper/build install --record /home/sam/piper_ros/build/piper/install.log --single-version-externally-managed install_data
+[2.841s] running egg_info
+[2.844s] writing ../../build/piper/piper.egg-info/PKG-INFO
+[2.844s] writing dependency_links to ../../build/piper/piper.egg-info/dependency_links.txt
+[2.846s] writing entry points to ../../build/piper/piper.egg-info/entry_points.txt
+[2.847s] writing requirements to ../../build/piper/piper.egg-info/requires.txt
+[2.849s] writing top-level names to ../../build/piper/piper.egg-info/top_level.txt
+[2.853s] reading manifest file '../../build/piper/piper.egg-info/SOURCES.txt'
+[2.853s] adding license file 'LICENSE'
+[2.853s] writing manifest file '../../build/piper/piper.egg-info/SOURCES.txt'
+[2.853s] running build
+[2.853s] running build_py
+[2.853s] copying piper/two_state_publisher.py -> /home/sam/piper_ros/build/piper/build/lib/piper
+[2.855s] running install
+[2.855s] running install_lib
+[2.857s] copying /home/sam/piper_ros/build/piper/build/lib/piper/two_state_publisher.py -> /home/sam/piper_ros/install/piper/lib/python3.10/site-packages/piper
+[2.860s] byte-compiling /home/sam/piper_ros/install/piper/lib/python3.10/site-packages/piper/two_state_publisher.py to two_state_publisher.cpython-310.pyc
+[2.860s] running install_data
+[2.860s] running install_egg_info
+[2.869s] removing '/home/sam/piper_ros/install/piper/lib/python3.10/site-packages/piper-0.0.0-py3.10.egg-info' (and everything under it)
+[2.869s] Copying ../../build/piper/piper.egg-info to /home/sam/piper_ros/install/piper/lib/python3.10/site-packages/piper-0.0.0-py3.10.egg-info
+[2.869s] running install_scripts
+[2.924s] Installing piper_ms_ctrl script to /home/sam/piper_ros/install/piper/lib/piper
+[2.924s] Installing piper_read_master script to /home/sam/piper_ros/install/piper/lib/piper
+[2.925s] Installing piper_single_ctrl script to /home/sam/piper_ros/install/piper/lib/piper
+[2.925s] Installing talker script to /home/sam/piper_ros/install/piper/lib/piper
+[2.926s] writing list of installed files to '/home/sam/piper_ros/build/piper/install.log'
+[2.980s] Invoked command in '/home/sam/piper_ros/src/piper' returned '0': PYTHONPATH=/home/sam/piper_ros/build/piper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sam/piper_ros/install/piper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/piper build --build-base /home/sam/piper_ros/build/piper/build install --record /home/sam/piper_ros/build/piper/install.log --single-version-externally-managed install_data

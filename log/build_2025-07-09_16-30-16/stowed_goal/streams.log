@@ -1,0 +1,26 @@
+[0.139s] Invoking command in '/home/sam/piper_ros/build/stowed_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/stowed_goal -- -j4 -l4
+[0.434s] [35m[1mConsolidate compiler generated dependencies of target stowed_goal[0m
+[0.528s] [ 50%] [32mBuilding CXX object CMakeFiles/stowed_goal.dir/src/stowed_goal.cpp.o[0m
+[11.363s] [100%] [32m[1mLinking CXX executable stowed_goal[0m
+[11.930s] [100%] Built target stowed_goal
+[11.952s] Invoked command in '/home/sam/piper_ros/build/stowed_goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/stowed_goal -- -j4 -l4
+[11.955s] Invoking command in '/home/sam/piper_ros/build/stowed_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/stowed_goal
+[11.970s] -- Install configuration: ""
+[11.970s] -- Installing: /home/sam/piper_ros/install/stowed_goal/lib/stowed_goal/stowed_goal
+[11.972s] -- Set runtime path of "/home/sam/piper_ros/install/stowed_goal/lib/stowed_goal/stowed_goal" to ""
+[11.972s] -- Up-to-date: /home/sam/piper_ros/install/stowed_goal/share/ament_index/resource_index/package_run_dependencies/stowed_goal
+[11.972s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/ament_index/resource_index/parent_prefix_path/stowed_goal
+[11.972s] -- Up-to-date: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/environment/ament_prefix_path.sh
+[11.972s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/environment/ament_prefix_path.dsv
+[11.973s] -- Up-to-date: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/environment/path.sh
+[11.973s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/environment/path.dsv
+[11.973s] -- Up-to-date: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/local_setup.bash
+[11.973s] -- Up-to-date: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/local_setup.sh
+[11.973s] -- Up-to-date: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/local_setup.zsh
+[11.974s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/local_setup.dsv
+[11.974s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/package.dsv
+[11.974s] -- Up-to-date: /home/sam/piper_ros/install/stowed_goal/share/ament_index/resource_index/packages/stowed_goal
+[11.974s] -- Up-to-date: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/cmake/stowed_goalConfig.cmake
+[11.974s] -- Up-to-date: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/cmake/stowed_goalConfig-version.cmake
+[11.974s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/package.xml
+[11.977s] Invoked command in '/home/sam/piper_ros/build/stowed_goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/stowed_goal

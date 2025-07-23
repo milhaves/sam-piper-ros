@@ -1,0 +1,44 @@
+[0.043s] Invoking command in '/home/sam/piper_ros/build/stowed_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/stowed_goal -- -j4 -l4
+[0.122s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.658s] -- Found moveit_ros_planning_interface: 2.5.9 (/home/sam/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[0.700s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.824s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.838s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.878s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.952s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.078s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.741s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.833s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.915s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.923s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.232s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.323s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.352s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.412s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.454s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.651s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.696s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.731s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.777s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.893s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.894s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sam/piper_ros/src/stowed_goal/include>
+[2.894s] -- Configured cppcheck exclude dirs and/or files: 
+[2.894s] -- Added test 'lint_cmake' to check CMake code style
+[2.895s] -- Added test 'uncrustify' to check C / C++ code style
+[2.895s] -- Configured uncrustify additional arguments: 
+[2.896s] -- Added test 'xmllint' to check XML markup files
+[2.897s] -- Configuring done
+[2.948s] -- Generating done
+[2.960s] -- Build files have been written to: /home/sam/piper_ros/build/stowed_goal
+[3.015s] [35m[1mConsolidate compiler generated dependencies of target stowed_goal[0m
+[3.058s] [ 50%] [32mBuilding CXX object CMakeFiles/stowed_goal.dir/src/stowed_goal.cpp.o[0m
+[9.614s] [01m[K/home/sam/piper_ros/src/stowed_goal/src/stowed_goal.cpp:20:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint main(int, char**)[m[K’
+[9.614s]    20 | int [01;31m[Kmain[m[K(int argc, char * argv[])
+[9.615s]       |     [01;31m[K^~~~[m[K
+[9.615s] [01m[K/home/sam/piper_ros/src/stowed_goal/src/stowed_goal.cpp:3:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint main(int, char**)[m[K’ previously defined here
+[9.615s]     3 | int [01;36m[Kmain[m[K(int argc, char ** argv)
+[9.615s]       |     [01;36m[K^~~~[m[K
+[12.803s] gmake[2]: *** [CMakeFiles/stowed_goal.dir/build.make:76: CMakeFiles/stowed_goal.dir/src/stowed_goal.cpp.o] Error 1
+[12.804s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stowed_goal.dir/all] Error 2
+[12.804s] gmake: *** [Makefile:146: all] Error 2
+[12.807s] Invoked command in '/home/sam/piper_ros/build/stowed_goal' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/stowed_goal -- -j4 -l4

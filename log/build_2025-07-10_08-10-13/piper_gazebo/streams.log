@@ -1,0 +1,27 @@
+[0.941s] Invoking command in '/home/sam/piper_ros/build/piper_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_gazebo -- -j4 -l4
+[1.270s] Invoked command in '/home/sam/piper_ros/build/piper_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/piper_gazebo -- -j4 -l4
+[1.275s] Invoking command in '/home/sam/piper_ros/build/piper_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_gazebo
+[1.357s] -- Install configuration: "Debug"
+[1.359s] -- Execute custom install script
+[1.359s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/launch/piper_no_gripper/piper_no_gripper_gazebo.launch.py
+[1.359s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/launch/piper_with_gripper/piper_gazebo.launch.py
+[1.370s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/config/ros2_controllers.yaml
+[1.370s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/config/ros2_no_gripper_controllers.yaml
+[1.371s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/scripts/joint8_ctrl.py
+[1.379s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/lib/piper_gazebo/joint8_ctrl.py
+[1.387s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/ament_index/resource_index/package_run_dependencies/piper_gazebo
+[1.387s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/ament_index/resource_index/parent_prefix_path/piper_gazebo
+[1.387s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/environment/ament_prefix_path.sh
+[1.388s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/environment/ament_prefix_path.dsv
+[1.388s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/environment/path.sh
+[1.388s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/environment/path.dsv
+[1.388s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/local_setup.bash
+[1.388s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/local_setup.sh
+[1.388s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/local_setup.zsh
+[1.388s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/local_setup.dsv
+[1.389s] -- Symlinking: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/package.dsv
+[1.484s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/ament_index/resource_index/packages/piper_gazebo
+[1.484s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/cmake/piper_gazeboConfig.cmake
+[1.485s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/cmake/piper_gazeboConfig-version.cmake
+[1.485s] -- Up-to-date symlink: /home/sam/piper_ros/install/piper_gazebo/share/piper_gazebo/package.xml
+[1.592s] Invoked command in '/home/sam/piper_ros/build/piper_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/piper_gazebo

@@ -1,0 +1,75 @@
+[0.044s] Invoking command in '/home/sam/piper_ros/build/stowed_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/sam/piper_ros/src/stowed_goal -DCMAKE_INSTALL_PREFIX=/home/sam/piper_ros/install/stowed_goal
+[0.383s] -- The C compiler identification is GNU 11.4.0
+[0.690s] -- The CXX compiler identification is GNU 11.4.0
+[0.722s] -- Detecting C compiler ABI info
+[1.117s] -- Detecting C compiler ABI info - done
+[1.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.158s] -- Detecting C compile features
+[1.160s] -- Detecting C compile features - done
+[1.174s] -- Detecting CXX compiler ABI info
+[1.337s] -- Detecting CXX compiler ABI info - done
+[1.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.352s] -- Detecting CXX compile features
+[1.353s] -- Detecting CXX compile features - done
+[1.368s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.631s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.876s] -- Found moveit_ros_planning_interface: 2.5.9 (/home/sam/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[2.231s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.391s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.415s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.444s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.531s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.945s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.112s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.266s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.283s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.495s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.544s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.623s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.665s] -- Found Threads: TRUE  
+[3.795s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.865s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.091s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.184s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.184s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.619s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[4.679s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[4.728s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[4.802s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.988s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.988s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sam/piper_ros/src/stowed_goal/include>
+[4.988s] -- Configured cppcheck exclude dirs and/or files: 
+[4.991s] -- Added test 'lint_cmake' to check CMake code style
+[4.994s] -- Added test 'uncrustify' to check C / C++ code style
+[4.994s] -- Configured uncrustify additional arguments: 
+[4.996s] -- Added test 'xmllint' to check XML markup files
+[5.001s] -- Configuring done
+[5.046s] -- Generating done
+[5.061s] -- Build files have been written to: /home/sam/piper_ros/build/stowed_goal
+[5.079s] Invoked command in '/home/sam/piper_ros/build/stowed_goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/sam/piper_ros/src/stowed_goal -DCMAKE_INSTALL_PREFIX=/home/sam/piper_ros/install/stowed_goal
+[5.081s] Invoking command in '/home/sam/piper_ros/build/stowed_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/stowed_goal -- -j4 -l4
+[5.177s] [ 50%] [32mBuilding CXX object CMakeFiles/stowed_goal.dir/src/stowed_goal.cpp.o[0m
+[15.357s] [100%] [32m[1mLinking CXX executable stowed_goal[0m
+[15.840s] [100%] Built target stowed_goal
+[15.858s] Invoked command in '/home/sam/piper_ros/build/stowed_goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sam/piper_ros/build/stowed_goal -- -j4 -l4
+[15.861s] Invoking command in '/home/sam/piper_ros/build/stowed_goal': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/stowed_goal
+[15.874s] -- Install configuration: ""
+[15.875s] -- Installing: /home/sam/piper_ros/install/stowed_goal/lib/stowed_goal/stowed_goal
+[15.876s] -- Set runtime path of "/home/sam/piper_ros/install/stowed_goal/lib/stowed_goal/stowed_goal" to ""
+[15.876s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/ament_index/resource_index/package_run_dependencies/stowed_goal
+[15.876s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/ament_index/resource_index/parent_prefix_path/stowed_goal
+[15.876s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/environment/ament_prefix_path.sh
+[15.876s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/environment/ament_prefix_path.dsv
+[15.877s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/environment/path.sh
+[15.877s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/environment/path.dsv
+[15.877s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/local_setup.bash
+[15.877s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/local_setup.sh
+[15.877s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/local_setup.zsh
+[15.878s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/local_setup.dsv
+[15.878s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/package.dsv
+[15.878s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/ament_index/resource_index/packages/stowed_goal
+[15.878s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/cmake/stowed_goalConfig.cmake
+[15.878s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/cmake/stowed_goalConfig-version.cmake
+[15.879s] -- Installing: /home/sam/piper_ros/install/stowed_goal/share/stowed_goal/package.xml
+[15.882s] Invoked command in '/home/sam/piper_ros/build/stowed_goal' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/piper_ros/install/piper:/home/sam/ws_moveit/install/moveit_configs_utils:/home/sam/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sam/piper_ros/build/stowed_goal
