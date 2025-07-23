@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(raised_goal)
+project(stowed_goal)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -10,18 +10,18 @@ find_package(ament_cmake REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 find_package(rclcpp REQUIRED)
 
-add_executable(raised_goal src/raised_goal.cpp)
-target_include_directories(raised_goal PUBLIC
+add_executable(stowed_goal src/stowed_goal.cpp)
+target_include_directories(stowed_goal PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
-target_compile_features(raised_goal PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+target_compile_features(stowed_goal PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 ament_target_dependencies(
-  raised_goal
+  stowed_goal
   "moveit_ros_planning_interface"
   "rclcpp"
 )
 
-install(TARGETS raised_goal
+install(TARGETS stowed_goal
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

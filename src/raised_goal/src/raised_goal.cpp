@@ -76,7 +76,8 @@ int main(int argc, char * argv[])
   }
 
   // Set max vel and max accel to 5% of actual max
-  move_group.setMaxVelocityScalingFactor(0.05);
+  // move_group.setMaxVelocityScalingFactor(0.05);
+  move_group.setMaxVelocityScalingFactor(1.0);
   move_group.setMaxAccelerationScalingFactor(0.05);
 
   // Create collision object for the robot to avoid

@@ -12,12 +12,12 @@ int main(int argc, char * argv[])
   // Initialize ROS and create the Node
   rclcpp::init(argc, argv);
   auto const node = std::make_shared<rclcpp::Node>(
-    "raised_goal",
+    "stowed_goal",
     rclcpp::NodeOptions().automatically_declare_parameters_from_overrides(true)
   );
 
   // Create a ROS logger
-  auto const logger = rclcpp::get_logger("raised_goal");
+  auto const logger = rclcpp::get_logger("stowed_goal");
 
   // Create the MoveIt MoveGroup Interface
   // using moveit::planning_interface::MoveGroupInterface;
@@ -61,7 +61,7 @@ int main(int argc, char * argv[])
   std::vector<std::string> joint_names = {"joint1", "joint2", "joint3", "joint4", "joint5", "joint6"};
 
   // const std::vector<double> joint_values = {0.0, 1.46, -2.967, 0.0, -0.072, 0.0, 0.0};
-  const std::vector<double> joint_values = {0.0, 1.46, -2.967, 0.0, -0.1, 0.0};
+  const std::vector<double> joint_values = {0.0, 0.05, 0.0, 0.0, -0.1, 0.0};
 
   std::map<std::string, double> joint_targets;
   for (size_t i = 0; i < joint_names.size(); ++i) {
